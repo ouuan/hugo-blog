@@ -21,7 +21,7 @@ top:
 
 可以参考 [这篇博客](https://min-25.hatenablog.com/entry/2018/03/19/235802)，里面给出了一个用 Python 写的数据生成器，调用函数 `mcmf_worst_instance(k)` 可以得到 $2k+2$ 个点的数据，格式为第一行点数和边数，后面每行描述一条边（起点、终点、容量、费用），源点是 $1$ 汇点是 $2k+2$。
 
-{% fold "k=20 生成的数据" %}
+{{% admonition note "k=20 生成的数据" true %}}
 
 ```plain
 42 421
@@ -448,7 +448,7 @@ top:
 41 42 655360 0
 ```
 
-{% endfold %}
+{{% /admonition %}}
 
 ## 前置知识
 
@@ -492,10 +492,13 @@ $(u, v)$ 表示从 $u$ 到 $v$ 的有向边（本文只讨论原图为简单图�
 
 一个流是最小费用流，当且仅当其残量网络中没有负环。
 
-??? note "证明"
-    仅当（必要条件）：若存在负环可以在负环上增广，从而得到费用更小的流。
+{{% admonition note "证明" true %}}
 
-    当（充分条件）：令所考虑的这个流为 $f$，取任意一个最小费用流 $f^{\ast}$，计算它们之间的差 $f^{\ast}-f$（对应边流量相减）。假设 $f$ 不是最小费用流，那么 $f^{\ast}-f$ 的总费用一定为负。由于 $f$ 和 $f^{\ast}$ 都流量平衡，$f^{\ast}-f$ 一定也流量平衡，所以它也是个合法的流，而一个流一定可以拆成若干个环（由于流量平衡，每个联通部分都有欧拉回路），若总费用为负就一定包含负环。又因为 $f^{\ast}-f$ 是在 $f$ 的基础上增广的，$f^{\ast}-f$ 一定是 $f$ 残量网络的一个子图，而其包含负环与 $f$ 的残量网络中没有负环矛盾，所以假设不成立。
+仅当（必要条件）：若存在负环可以在负环上增广，从而得到费用更小的流。
+
+当（充分条件）：令所考虑的这个流为 $f$，取任意一个最小费用流 $f^{\ast}$，计算它们之间的差 $f^{\ast}-f$（对应边流量相减）。假设 $f$ 不是最小费用流，那么 $f^{\ast}-f$ 的总费用一定为负。由于 $f$ 和 $f^{\ast}$ 都流量平衡，$f^{\ast}-f$ 一定也流量平衡，所以它也是个合法的流，而一个流一定可以拆成若干个环（由于流量平衡，每个联通部分都有欧拉回路），若总费用为负就一定包含负环。又因为 $f^{\ast}-f$ 是在 $f$ 的基础上增广的，$f^{\ast}-f$ 一定是 $f$ 残量网络的一个子图，而其包含负环与 $f$ 的残量网络中没有负环矛盾，所以假设不成立。
+
+{{% /admonition %}}
 
 ## 节点势能 & 边的 reduced cost
 
@@ -541,32 +544,35 @@ capacity scaling 从高到低考虑容量的最高若干位（比如容量为 $5
 
 这里直接给出一种做法：求出上文所述的最短路 $d(i)$（若 $x$ 不可达就将 $d(x)$ 设为 $\max_{\text{节点 }i\text{ 可达}}\\{d(i)\\}+max(0, -C_p(u, v))$），然后将每个点 $i$ 的势能加上 $d(i)$（用 $p'(i)$ 表示节点 $i$ 更新后的势能）。
 
-??? note "这样调整后残量网络中的每一条边的 reduced cost 依然非负的证明"
-    对于 $(u, v)$ 这条边，若 $u$ 不可达，那么：
+{{% admonition note "这样调整后残量网络中的每一条边的 reduced cost 依然非负的证明" true %}}
 
-    $$
-    \begin{aligned}
-    C_{p'}(u, v)
-    &=p'(u)+cost(u, v)-p'(v)\\\\
-    &=p(u)+max(0, -C_p(u, v))+cost(u, v)-p(v)\\\\
-    &\ge p(u)-(p(u)+cost(u, v)-p(v))+cost(u, v)-p(v)\\\\
-    &=0
-    \end{aligned}
-    $$
+对于 $(u, v)$ 这条边，若 $u$ 不可达，那么：
 
-    若 $u$ 可达且 $(u, v)$ 这条边加入后产生了负环，负环会被增广，$(u, v)$ 这条边就不存在了。
+$$
+\begin{aligned}
+C_{p'}(u, v)
+&=p'(u)+cost(u, v)-p'(v)\\\\
+&=p(u)+max(0, -C_p(u, v))+cost(u, v)-p(v)\\\\
+&\ge p(u)-(p(u)+cost(u, v)-p(v))+cost(u, v)-p(v)\\\\
+&=0
+\end{aligned}
+$$
 
-    若 $u$ 可达且 $(u, v)$ 这条边加入后没有产生负环，即 $d(u)+C_p(u, v)\ge 0$，那么 $C_{p'}(u, v)=d(u)+C_p(u, v)-d(v)=d(u)+C_p(u, v)\ge 0$。
+若 $u$ 可达且 $(u, v)$ 这条边加入后产生了负环，负环会被增广，$(u, v)$ 这条边就不存在了。
 
-    capacity scaling 算法在初始时所有边容量均为 $0$（也就是说残量网络为空），所以可以在除 $(u, v)$ 外每条边的 reduced cost 均非负的基础上归纳证明。
+若 $u$ 可达且 $(u, v)$ 这条边加入后没有产生负环，即 $d(u)+C_p(u, v)\ge 0$，那么 $C_{p'}(u, v)=d(u)+C_p(u, v)-d(v)=d(u)+C_p(u, v)\ge 0$。
 
-    对于其它从 $u$ 可达的边 $(x, y)$，由于 $d(y)\le d(x)+C_p(x, y)$（最短路的性质），即 $d(y)\le d(x)+p(x)+cost(x, y)-p(y)$，所以 $p(x)+d(x)+cost(x, y)-(p(y)+d(y))\ge 0$，即 $p'(x)+cost(x, y)-p'(y)\ge 0$，也就是说 $u$ 可达的边 reduced cost 调整后非负。
+capacity scaling 算法在初始时所有边容量均为 $0$（也就是说残量网络为空），所以可以在除 $(u, v)$ 外每条边的 reduced cost 均非负的基础上归纳证明。
 
-    对于其它从 $u$ 可达与从 $u$ 不可达交界处的边 $(x, y)$（由于这条边不可达，一定是 $x$ 不可达 $y$ 可达），由于 $C_p(x, y)\ge 0$ 且 $d(x)=\max_{\text{节点 }i\text{ 可达}}\\{d(i)\\}+max(0, -C_p(u, v))\ge d(y)$，这样的边调整后 reduced cost 也非负。
+对于其它从 $u$ 可达的边 $(x, y)$，由于 $d(y)\le d(x)+C_p(x, y)$（最短路的性质），即 $d(y)\le d(x)+p(x)+cost(x, y)-p(y)$，所以 $p(x)+d(x)+cost(x, y)-(p(y)+d(y))\ge 0$，即 $p'(x)+cost(x, y)-p'(y)\ge 0$，也就是说 $u$ 可达的边 reduced cost 调整后非负。
 
-    对于连接从 $u$ 不可达的两个点 $x$，$y$ 的边，$d(x)=d(y)$，调整后 reduced cost 也非负。
+对于其它从 $u$ 可达与从 $u$ 不可达交界处的边 $(x, y)$（由于这条边不可达，一定是 $x$ 不可达 $y$ 可达），由于 $C_p(x, y)\ge 0$ 且 $d(x)=\max_{\text{节点 }i\text{ 可达}}\\{d(i)\\}+max(0, -C_p(u, v))\ge d(y)$，这样的边调整后 reduced cost 也非负。
 
-    综上所述，调整后残量网络中的每一条边的 reduced cost 依然非负。
+对于连接从 $u$ 不可达的两个点 $x$，$y$ 的边，$d(x)=d(y)$，调整后 reduced cost 也非负。
+
+综上所述，调整后残量网络中的每一条边的 reduced cost 依然非负。
+
+{{% /admonition %}}
 
 进而我们还可以得出，上述流程结束后，残量网络中不存在负环，即上述流程可以计算出当前的最小费用流。
 
@@ -592,159 +598,163 @@ capacity scaling 从高到低考虑容量的最高若干位（比如容量为 $5
 
 [模板题](http://uoj.ac/problem/487)。
 
-??? note "代码"
-    ```cpp
-    #include <iostream>
-    #include <queue>
-    #include <vector>
-    #include <algorithm>
-    
-    using namespace std;
-    
-    typedef long long ll;
-    typedef pair<ll, int> pli;
-    
-    const ll INF = 1e18;
-    const ll LARGE = 1e12;
-    
-    int n, m;
-    vector<bool> vis;
-    vector<int> head, nxt, from, to, pre;
-    vector<ll> raw_cap, cap, cost, p, dis;
-    priority_queue<pli, vector<pli>, greater<pli> > q;
-    
-    void add(int u, int v, ll f, ll w)
-    {
-        nxt.push_back(head[u]);
-        head[u] = to.size();
-        from.push_back(u);
-        to.push_back(v);
-        raw_cap.push_back(f);
-        cap.push_back(0);
-        cost.push_back(w);
-    }
-    
-    void add_edge(int u, int v, ll f, ll w)
-    {
-        add(u, v, f, w);
-        add(v, u, 0, -w);
-    }
-    
-    ll c(int id)
-    {
-        return p[from[id]] + cost[id] - p[to[id]];
-    }
-    
-    void dijkstra(int s)
-    {
-        vis.assign(n + 2, false);
-        dis.assign(n + 2, INF);
-        pre.assign(n + 2, -1);
-        dis[s] = 0;
-        q.push(pli(0, s));
+{{% admonition note 代码 true %}}
 
-        while (!q.empty())
+```cpp
+#include <iostream>
+#include <queue>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+typedef long long ll;
+typedef pair<ll, int> pli;
+
+const ll INF = 1e18;
+const ll LARGE = 1e12;
+
+int n, m;
+vector<bool> vis;
+vector<int> head, nxt, from, to, pre;
+vector<ll> raw_cap, cap, cost, p, dis;
+priority_queue<pli, vector<pli>, greater<pli> > q;
+
+void add(int u, int v, ll f, ll w)
+{
+    nxt.push_back(head[u]);
+    head[u] = to.size();
+    from.push_back(u);
+    to.push_back(v);
+    raw_cap.push_back(f);
+    cap.push_back(0);
+    cost.push_back(w);
+}
+
+void add_edge(int u, int v, ll f, ll w)
+{
+    add(u, v, f, w);
+    add(v, u, 0, -w);
+}
+
+ll c(int id)
+{
+    return p[from[id]] + cost[id] - p[to[id]];
+}
+
+void dijkstra(int s)
+{
+    vis.assign(n + 2, false);
+    dis.assign(n + 2, INF);
+    pre.assign(n + 2, -1);
+    dis[s] = 0;
+    q.push(pli(0, s));
+
+    while (!q.empty())
+    {
+        int u = q.top().second;
+        ll w = q.top().first;
+        q.pop();
+        if (vis[u]) continue;
+        vis[u] = true;
+        for (int i = head[u]; ~i; i = nxt[i])
         {
-            int u = q.top().second;
-            ll w = q.top().first;
-            q.pop();
-            if (vis[u]) continue;
-            vis[u] = true;
-            for (int i = head[u]; ~i; i = nxt[i])
+            int v = to[i];
+            if (cap[i] && dis[v] > w + c(i))
             {
-                int v = to[i];
-                if (cap[i] && dis[v] > w + c(i))
-                {
-                    dis[v] = w + c(i);
-                    pre[v] = i;
-                    q.push(pli(dis[v], v));
-                }
+                dis[v] = w + c(i);
+                pre[v] = i;
+                q.push(pli(dis[v], v));
             }
         }
     }
-    
-    void add_one_cap(int id)
+}
+
+void add_one_cap(int id)
+{
+    int u = from[id];
+    int v = to[id];
+    if (cap[id])
     {
-        int u = from[id];
-        int v = to[id];
-        if (cap[id])
+        ++cap[id];
+        return;
+    }
+    dijkstra(v);
+    if (dis[u] < INF && dis[u] + c(id) < 0)
+    {
+        ++cap[id ^ 1];
+        while (u != v)
         {
-            ++cap[id];
-            return;
+            int x = pre[u];
+            --cap[x];
+            ++cap[x ^ 1];
+            u = from[x];
         }
-        dijkstra(v);
-        if (dis[u] < INF && dis[u] + c(id) < 0)
+    }
+    else ++cap[id];
+    ll max_dis = 0;
+    ll cur_len = c(id);
+    for (int i = 1; i <= n; ++i) if (dis[i] < INF) max_dis = max(max_dis, dis[i]);
+    for (int i = 1; i <= n; ++i) p[i] += dis[i] < INF ? dis[i] : max_dis + max(0ll, -cur_len);
+
+    dijkstra(n + 1);
+    for (int i = 1; i <= n; ++i) p[i] += dis[i];
+}
+
+int main()
+{
+    int s, t;
+
+    cin >> n >> m >> s >> t;
+
+    head.resize(n + 2, -1);
+    p.resize(n + 2, 0);
+
+    for (int i = 1; i <= m; ++i)
+    {
+        ll u, v, f, w;
+        cin >> u >> v >> f >> w;
+        add_edge(u, v, f, w);
+    }
+
+    add_edge(t, s, LARGE, -LARGE);
+
+    for (int i = 1; i <= n; ++i)
+    {
+        add_edge(n + 1, i, 0, 0);
+        cap[to.size() - 2] = 1;
+    }
+
+    for (int i = 40; i >= 0; --i)
+    {
+        for (int j = 0; j <= m * 2 + 1; ++j) cap[j] <<= 1;
+        for (int j = 0; j <= m * 2; j += 2)
         {
-            ++cap[id ^ 1];
-            while (u != v)
+            if ((raw_cap[j] >> i) & 1)
             {
-                int x = pre[u];
-                --cap[x];
-                ++cap[x ^ 1];
-                u = from[x];
+                add_one_cap(j);
             }
         }
-        else ++cap[id];
-        ll max_dis = 0;
-        ll cur_len = c(id);
-        for (int i = 1; i <= n; ++i) if (dis[i] < INF) max_dis = max(max_dis, dis[i]);
-        for (int i = 1; i <= n; ++i) p[i] += dis[i] < INF ? dis[i] : max_dis + max(0ll, -cur_len);
-
-        dijkstra(n + 1);
-        for (int i = 1; i <= n; ++i) p[i] += dis[i];
     }
-    
-    int main()
-    {
-        int s, t;
 
-        cin >> n >> m >> s >> t;
+    ll min_cost = 0;
 
-        head.resize(n + 2, -1);
-        p.resize(n + 2, 0);
+    for (int i = 0; i < m; ++i) min_cost += cap[i << 1 | 1] * cost[i << 1];
 
-        for (int i = 1; i <= m; ++i)
-        {
-            ll u, v, f, w;
-            cin >> u >> v >> f >> w;
-            add_edge(u, v, f, w);
-        }
-    
-        add_edge(t, s, LARGE, -LARGE);
+    cout << cap[m << 1 | 1] << ' ' << min_cost;
 
-        for (int i = 1; i <= n; ++i)
-        {
-            add_edge(n + 1, i, 0, 0);
-            cap[to.size() - 2] = 1;
-        }
+    return 0;
+}
+```
 
-        for (int i = 40; i >= 0; --i)
-        {
-            for (int j = 0; j <= m * 2 + 1; ++j) cap[j] <<= 1;
-            for (int j = 0; j <= m * 2; j += 2)
-            {
-                if ((raw_cap[j] >> i) & 1)
-                {
-                    add_one_cap(j);
-                }
-            }
-        }
-
-        ll min_cost = 0;
-
-        for (int i = 0; i < m; ++i) min_cost += cap[i << 1 | 1] * cost[i << 1];
-
-        cout << cap[m << 1 | 1] << ' ' << min_cost;
-
-        return 0;
-    }
-    ```
+{{% /admonition %}}
 
 ## 关于 SPFA
 
 如果把算法中的 Dijkstra 换成 SPFA，reduced cost 就不需要了，调整势能和防止溢出两部分都可以去掉，加上 SPFA 本身就略微比 Dijkstra 好写，总体会好写不少，复杂度是 $O(nm^2\log U)$，但很难卡满，而且由于不用防止溢出，少跑很多遍最短路，总体跑的非常快。
 
-??? note "代码"
+{{% admonition note 代码 true %}}
+
 ```cpp
 #include <iostream>
 #include <queue>
@@ -882,6 +892,8 @@ int main()
     return 0;
 }
 ```
+
+{{% /admonition %}}
 
 ## 关于出题
 
