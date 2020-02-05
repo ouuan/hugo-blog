@@ -2,6 +2,8 @@
 title: "Test"
 date: 2020-02-05T16:02:17+08:00
 draft: false
+tags: ['test1', 'test2']
+categories: ['qwq']
 ---
 
 Moving from hexo to hugo in progress.
