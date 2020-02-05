@@ -13,16 +13,18 @@ Moving from hexo to hugo in progress.
 1. test
 2. test
 3. test
-   
-- test
 
-- test
-
-- test
+1. test
+2. test
+3. test
 
 > test
 >
 > test
+   
+- test
+- test
+- test
 
 $f_{f_i}$
 
@@ -30,4 +32,8 @@ $a*b*c$
 
 $[l, r](1\le l\le r\le n)$
 
+$f_i=\begin{cases}1&i=1\\\\f_{i-1}\cdot i&i\ge 2\end{cases}$
+
 ![hinata](https://i.loli.net/2020/02/05/IMjsfeSxDuV59qz.jpg)
+
+:smile: :shark:
