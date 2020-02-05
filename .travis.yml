@@ -5,7 +5,7 @@ before_install:
   - sudo apt-get -yq install apt-transport-https
 
 install:
-  - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p;q}}' | xargs wget
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.64.0/hugo_extended_0.64.0_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
 
 script: hugo
