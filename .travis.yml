@@ -1,0 +1,23 @@
+dist: bionic
+
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get -yq install apt-transport-https
+
+install:
+  - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p;q}}' | xargs wget
+  - sudo dpkg -i hugo*.deb
+
+script: hugo
+
+deploy:
+    provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    on:
+        branch: master
+    local_dir: public
+    repo: ouuan/ouuan.github.io
+    target_branch: master
+    email: y___o___u@126.com
+    name: ouuan
