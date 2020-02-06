@@ -2,7 +2,7 @@
 title = "hexo博客搭建指北"
 date = "2018-12-06T16:00:37+08:00"
 categories = ["技术"]
-tags = ["hexo博客"]
+tags = ["博客"]
 description = ""
 +++
 

@@ -2,8 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
-tags: ['', '']
 categories: ['题解']
+tags: ['', '']
 ---
 
 ## 题目链接
