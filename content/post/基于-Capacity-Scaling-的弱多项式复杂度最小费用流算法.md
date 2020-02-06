@@ -1,13 +1,11 @@
----
-title: 基于 Capacity Scaling 的弱多项式复杂度最小费用流算法
-date: 2019-10-26 19:50:25
-categories: [算法]
-tags:
-- 图论
-- 网络流
-- 费用流
-top:
----
++++
+title = "基于 Capacity Scaling 的弱多项式复杂度最小费用流算法"
+date = "2019-10-26T19:50:25+08:00"
+categories = ["算法"]
+tags = ["图论", "网络流", "费用流"]
+description = ""
++++
+
 
 大多数人所使用的费用流算法，即每次求出残量网络中 $s$ 到 $t$ 关于费用的最短路进行增广（将 Dinic 最大流算法中的 BFS 改为 SPFA），是伪多项式复杂度的，最坏情况下复杂度为 $O(nmf)$，其中 $f$ 为最大流。已知有一种在点数为 $n$，边数为 $O(n^2)$，值域为 $O(2^{n/2})$ 时将其用时卡成关于 $n$ 的指数级复杂度的构造方法。
 
@@ -598,7 +596,7 @@ capacity scaling 算法在初始时所有边容量均为 $0$（也就是说残�
 
 [模板题](http://uoj.ac/problem/487)。
 
-{{% admonition note 代码 true %}}
+{{% admonition note "代码" true %}}
 
 ```cpp
 #include <iostream>
@@ -753,7 +751,7 @@ int main()
 
 如果把算法中的 Dijkstra 换成 SPFA，reduced cost 就不需要了，调整势能和防止溢出两部分都可以去掉，加上 SPFA 本身就略微比 Dijkstra 好写，总体会好写不少，复杂度是 $O(nm^2\log U)$，但很难卡满，而且由于不用防止溢出，少跑很多遍最短路，总体跑的非常快。
 
-{{% admonition note 代码 true %}}
+{{% admonition note "代码" true %}}
 
 ```cpp
 #include <iostream>
