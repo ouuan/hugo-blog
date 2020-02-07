@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "关于"
 date = 2018-12-05T13:40:21+08:00
 +++
 
@@ -7,13 +7,13 @@ date = 2018-12-05T13:40:21+08:00
 
 在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 以获得更好的阅读体验。
 
-本博客中还包含少量含有中文的 LaTeX 公式，所以推荐安装 MathJax 的 Unicode 字体 [Arial Unicode MS](/fonts/arial-unicode-ms_2.ttf) 。
+本博客中还有少量含有中文的 LaTeX 公式，所以推荐安装 MathJax 的 Unicode 字体 [Arial Unicode MS](/fonts/arial-unicode-ms_2.ttf) 。
 
 ---
 
 Q: 博客里的 XX 功能是怎么做到的啊？
 
-A: 本博客所有代码 [开源](https://github.com/ouuan/hugo-blog)，请先自己找。
+A: 本博客所有代码 [开源](https://github.com/ouuan/hugo-blog)，请先自己找，找不到可以在评论区问。
 
 Q: 为什么大部分题解里的题意简述数据范围不全，甚至不太看得懂？
 
@@ -42,6 +42,11 @@ A: utterance 的加载是一件玄学的事情，有时加载速度会非常慢�
 ---
 
 ouuan，HB 现役 oier。最喜欢的番剧/漫画是 [三月のライオン](https://www.bilibili.com/bangumi/media/md5523/) 。
+
+- [CF](https://codeforces.com/profile/ouuan)
+- [洛谷](https://www.luogu.com.cn/user/49742)
+- [UOJ](http://uoj.ac/user/profile/ouuan)
+- [LOJ](https://loj.ac/user/9706)
 
 初三：
 

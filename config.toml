@@ -29,35 +29,40 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "Home"
+  name = "主页"
   weight = 10
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "Archives"
+  name = "归档"
   weight = 20
   identifier = "archives"
   url = "/post/"
 [[menu.main]]
-  name = "Tags"
+  name = "标签"
   weight = 30
   identifier = "tags"
   url = "/tags/"
 [[menu.main]]
-  name = "Categories"
+  name = "分类"
   weight = 40
   identifier = "categories"
   url = "/categories/"
 [[menu.main]]
-  name = "Links"
+  name = "链接"
   weight = 50
   identifier = "links"
   url = "/links/"
 [[menu.main]]
-  name = "About"
+  name = "关于"
   weight = 60
   identifier = "about"
   url = "/about/"
+[[menu.main]]
+  name = "搜索"
+  weight = 60
+  identifier = "search"
+  url = "/search/"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
@@ -204,6 +209,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
 [frontmatter]
   lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 # 将下面这段配置取消注释可以使 hugo 生成 .md 文件
 # Uncomment these options to make hugo output .md files.
