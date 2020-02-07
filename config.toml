@@ -200,7 +200,10 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     privacyEnhanced = true
 
 [markup.goldmark.renderer]
-unsafe= true
+  unsafe= true
+
+[blackfriday]
+  hrefTargetBlank = true
 
 [frontmatter]
     lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
