@@ -881,7 +881,7 @@ $\LaTeX$ 主要用于编辑数学公式，十分方便，网上也有很多学�
 ~~QAQ$f_i=\sum\limits_{j=1}^ia_j$f_i=\sum\limits_{j=1}^ia_j~~
 ```
 
-~~QAQ$f_i=\sum\limits_{j=1}^ia_j$f_i=\sum\limits_{j=1}^ia_j~~
+<del>QAQ$f_i=\sum\limits_{j=1}^ia_j$f_i=\sum\limits_{j=1}^ia_j</del>
 
 也可以用一对双美元符号使公式居中显示在单行，例如：
 
