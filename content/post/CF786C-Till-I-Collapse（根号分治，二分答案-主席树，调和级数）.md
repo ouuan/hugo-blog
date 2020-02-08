@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["根号分治", "二分答案", "主席树", "数颜色", "调和级数", "数据结构", "贪心"]
 date = "2019-12-06T19:24:14+08:00"
 description = ""
+aliases = ["/post/CF786C-Till-I-Collapse（根号分治，二分答案-主席树，调和级数）", "/CF786C-Till-I-Collapse（根号分治，二分答案-主席树，调和级数）"]
 +++
 
 

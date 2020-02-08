@@ -4,6 +4,7 @@ date = "2018-12-12T23:42:17+08:00"
 categories = ["技术"]
 tags = ["HTML/JavaScript"]
 description = ""
+aliases = ["/post/html实现随机图片", "/html实现随机图片"]
 +++
 
 

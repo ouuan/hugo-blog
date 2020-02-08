@@ -4,6 +4,7 @@ date = "2019-06-26T15:05:09+08:00"
 categories = ["其它知识"]
 tags = ["博弈论", "超现实数"]
 description = ""
+aliases = ["/post/Surreal-Numbers-阅读笔记", "/Surreal-Numbers-阅读笔记"]
 +++
 
 

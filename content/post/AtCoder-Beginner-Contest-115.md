@@ -4,6 +4,7 @@ date = "2018-12-08T21:50:43+08:00"
 categories = ["游记"]
 tags = ["AtCoder"]
 description = ""
+aliases = ["/post/AtCoder-Beginner-Contest-115", "/AtCoder-Beginner-Contest-115"]
 +++
 
 

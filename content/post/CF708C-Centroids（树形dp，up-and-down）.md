@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["树形dp", "up and down"]
 date = "2019-06-23T21:34:21+08:00"
 description = ""
+aliases = ["/post/CF708C-Centroids（树形dp，up-and-down）", "/CF708C-Centroids（树形dp，up-and-down）"]
 +++
 
 

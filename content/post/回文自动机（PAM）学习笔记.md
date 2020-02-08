@@ -4,6 +4,7 @@ date = "2019-05-10T22:31:05+08:00"
 categories = ["算法"]
 tags = ["字符串", "PAM"]
 description = ""
+aliases = ["/post/回文自动机（PAM）学习笔记", "/回文自动机（PAM）学习笔记"]
 +++
 
 

@@ -38,7 +38,7 @@ hugo 的配置步骤就不说了，网上很多教程，而且这个博客是 [�
 
 我自己使用的脚本（fork 然后稍微改了一点）：[ouuan/hexo2hugo](https://github.com/ouuan/hexo2hugo) 。
 
-由于我之前博客的地址是不带 `/post` 的，我在 404 页面上用 JS 进行了跳转。只不过这并不能挽救 SEO...
+hugo 还支持 [aliases](https://gohugo.io/content-management/urls/#aliases)，所以链接改动可以轻松处理。
 
 几个搞了比较久的功能：
 

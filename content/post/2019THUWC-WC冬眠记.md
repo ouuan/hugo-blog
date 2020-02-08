@@ -4,6 +4,7 @@ date = "2019-01-20T12:16:15+08:00"
 categories = ["游记"]
 tags = ["清华营", "CCF系列赛事"]
 description = ""
+aliases = ["/post/2019THUWC-WC冬眠记", "/2019THUWC-WC冬眠记"]
 +++
 
 

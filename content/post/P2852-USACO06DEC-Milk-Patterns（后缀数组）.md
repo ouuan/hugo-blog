@@ -4,6 +4,7 @@ date = "2019-02-14T11:21:26+08:00"
 categories = ["题解"]
 tags = ["字符串", "后缀数组"]
 description = ""
+aliases = ["/post/P2852-USACO06DEC-Milk-Patterns（后缀数组）", "/P2852-USACO06DEC-Milk-Patterns（后缀数组）"]
 +++
 
 

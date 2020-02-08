@@ -4,6 +4,7 @@ date = "2019-11-28T20:10:41+08:00"
 categories = ["技术"]
 tags = ["OJ"]
 description = ""
+aliases = ["/post/UOJ-无限-waiting-的解决方法", "/UOJ-无限-waiting-的解决方法"]
 +++
 
 

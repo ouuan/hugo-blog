@@ -4,6 +4,7 @@ date = "2019-02-21T14:10:35+08:00"
 categories = ["题解"]
 tags = ["字符串", "SAM"]
 description = ""
+aliases = ["/post/BZOJ4516-SDOI2016-生成魔咒（SAM）", "/BZOJ4516-SDOI2016-生成魔咒（SAM）"]
 +++
 
 

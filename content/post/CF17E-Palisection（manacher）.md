@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["字符串", "manacher"]
 date = "2019-05-10T22:06:18+08:00"
 description = ""
+aliases = ["/post/CF17E-Palisection（manacher）", "/CF17E-Palisection（manacher）"]
 +++
 
 

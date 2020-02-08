@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["贪心"]
 date = "2019-10-16T21:50:44+08:00"
 description = ""
+aliases = ["/post/CF3D-Least-Cost-Bracket-Sequence（贪心）", "/CF3D-Least-Cost-Bracket-Sequence（贪心）"]
 +++
 
 

@@ -4,6 +4,7 @@ date = "2019-09-04T09:22:32+08:00"
 categories = ["题解"]
 tags = ["组合数学", "生成函数", "计数dp"]
 description = ""
+aliases = ["/post/LOJ6077-逆序对（生成函数，计数dp）", "/LOJ6077-逆序对（生成函数，计数dp）"]
 +++
 
 

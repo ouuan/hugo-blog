@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["字符串", "KMP"]
 date = "2019-05-10T21:56:54+08:00"
 description = ""
+aliases = ["/post/CF432D-Prefixes-and-Suffixes（KMP）", "/CF432D-Prefixes-and-Suffixes（KMP）"]
 +++
 
 

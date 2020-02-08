@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["二分图"]
 date = "2019-11-29T20:54:11+08:00"
 description = ""
+aliases = ["/post/CF901C-Bipartite-Segments（二分图）", "/CF901C-Bipartite-Segments（二分图）"]
 +++
 
 

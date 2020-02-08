@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["数论"]
 date = "2019-08-27T20:08:56+08:00"
 description = ""
+aliases = ["/post/CF1208G-Polygons（数论）", "/CF1208G-Polygons（数论）"]
 +++
 
 

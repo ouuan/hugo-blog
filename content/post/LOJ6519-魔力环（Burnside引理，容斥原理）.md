@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["群论", "Burnside引理", "组合数学", "容斥原理"]
 date = "2019-09-05T10:45:59+08:00"
 description = ""
+aliases = ["/post/LOJ6519-魔力环（Burnside引理，容斥原理）", "/LOJ6519-魔力环（Burnside引理，容斥原理）"]
 +++
 
 

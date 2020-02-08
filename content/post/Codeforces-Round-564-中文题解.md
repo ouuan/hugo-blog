@@ -4,6 +4,7 @@ date = "2019-06-07T22:38:47+08:00"
 categories = ["题解"]
 tags = ["Codeforces"]
 description = ""
+aliases = ["/post/Codeforces-Round-564-中文题解", "/Codeforces-Round-564-中文题解"]
 +++
 
 

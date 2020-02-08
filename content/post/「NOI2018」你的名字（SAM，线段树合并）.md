@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["SAM", "线段树合并", "字符串", "数据结构"]
 date = "2020-01-07T18:33:42+08:00"
 description = ""
+aliases = ["/post/「NOI2018」你的名字（SAM，线段树合并）", "/「NOI2018」你的名字（SAM，线段树合并）"]
 +++
 
 

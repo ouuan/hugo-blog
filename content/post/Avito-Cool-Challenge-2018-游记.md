@@ -4,6 +4,7 @@ date = "2018-12-17T22:47:17+08:00"
 categories = ["游记"]
 tags = ["Codeforces"]
 description = ""
+aliases = ["/post/Avito-Cool-Challenge-2018-游记", "/Avito-Cool-Challenge-2018-游记"]
 +++
 
 

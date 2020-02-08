@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["贪心", "并查集", "离线算法"]
 date = "2019-10-08T20:49:18+08:00"
 description = ""
+aliases = ["/post/CF878E-Numbers-on-the-blackboard（贪心，并查集）", "/CF878E-Numbers-on-the-blackboard（贪心，并查集）"]
 +++
 
 

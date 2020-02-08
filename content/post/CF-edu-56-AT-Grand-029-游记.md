@@ -4,6 +4,7 @@ date = "2018-12-16T00:29:11+08:00"
 categories = ["游记"]
 tags = ["AtCoder", "Codeforces"]
 description = ""
+aliases = ["/post/CF-edu-56-AT-Grand-029-游记", "/CF-edu-56-AT-Grand-029-游记"]
 +++
 
 

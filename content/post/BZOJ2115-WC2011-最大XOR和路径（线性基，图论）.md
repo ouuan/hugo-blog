@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["线性基", "图论"]
 date = "2019-06-16T20:46:02+08:00"
 description = ""
+aliases = ["/post/BZOJ2115-WC2011-最大XOR和路径（线性基，图论）", "/BZOJ2115-WC2011-最大XOR和路径（线性基，图论）"]
 +++
 
 

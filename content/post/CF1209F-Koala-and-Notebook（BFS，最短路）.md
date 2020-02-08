@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["图论", "最短路", "BFS"]
 date = "2019-09-16T08:58:32+08:00"
 description = ""
+aliases = ["/post/CF1209F-Koala-and-Notebook（BFS，最短路）", "/CF1209F-Koala-and-Notebook（BFS，最短路）"]
 +++
 
 

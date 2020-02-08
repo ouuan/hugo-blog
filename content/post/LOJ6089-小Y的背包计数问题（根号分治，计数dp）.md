@@ -4,6 +4,7 @@ date = "2019-09-04T09:21:35+08:00"
 categories = ["题解"]
 tags = ["计数dp", "根号分治"]
 description = ""
+aliases = ["/post/LOJ6089-小Y的背包计数问题（根号分治，计数dp）", "/LOJ6089-小Y的背包计数问题（根号分治，计数dp）"]
 +++
 
 

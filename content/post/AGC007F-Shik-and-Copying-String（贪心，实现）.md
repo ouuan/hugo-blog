@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["贪心", "实现"]
 date = "2019-08-16T23:34:10+08:00"
 description = ""
+aliases = ["/post/AGC007F-Shik-and-Copying-String（贪心，实现）", "/AGC007F-Shik-and-Copying-String（贪心，实现）"]
 +++
 
 

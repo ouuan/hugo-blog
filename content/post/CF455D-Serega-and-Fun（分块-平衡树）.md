@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["分块", "平衡树", "数据结构"]
 date = "2019-12-04T15:20:52+08:00"
 description = ""
+aliases = ["/post/CF455D-Serega-and-Fun（分块-平衡树）", "/CF455D-Serega-and-Fun（分块-平衡树）"]
 +++
 
 

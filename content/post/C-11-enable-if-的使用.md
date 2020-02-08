@@ -4,6 +4,7 @@ date = "2019-07-03T01:24:13+08:00"
 categories = ["技术"]
 tags = ["泛型编程", "C++"]
 description = ""
+aliases = ["/post/C-11-enable-if-的使用", "/C-11-enable-if-的使用"]
 +++
 
 

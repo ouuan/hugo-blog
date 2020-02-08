@@ -4,6 +4,7 @@ date = "2019-06-09T12:56:10+08:00"
 categories = ["出题"]
 tags = ["Codeforces"]
 description = ""
+aliases = ["/post/bad-round-与出题人的坚守", "/bad-round-与出题人的坚守"]
 +++
 
 

@@ -4,6 +4,7 @@ date = "2019-04-29T15:39:10+08:00"
 categories = ["算法"]
 tags = ["字符串", "AC自动机"]
 description = ""
+aliases = ["/post/AC自动机学习笔记", "/AC自动机学习笔记"]
 +++
 
 

@@ -4,6 +4,7 @@ date = "2019-02-14T11:20:59+08:00"
 categories = ["题解"]
 tags = ["字符串", "后缀数组"]
 description = ""
+aliases = ["/post/P2870-USACO07DEC-Best-Cow-Line-Gold（后缀数组）", "/P2870-USACO07DEC-Best-Cow-Line-Gold（后缀数组）"]
 +++
 
 

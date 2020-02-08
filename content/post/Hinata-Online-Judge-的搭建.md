@@ -4,6 +4,7 @@ date = "2019-09-21T21:58:04+08:00"
 categories = ["技术"]
 tags = ["OJ", "工程"]
 description = ""
+aliases = ["/post/Hinata-Online-Judge-的搭建", "/Hinata-Online-Judge-的搭建"]
 +++
 
 

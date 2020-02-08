@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["图论", "建图", "欧拉路径"]
 date = "2019-10-15T15:01:00+08:00"
 description = ""
+aliases = ["/post/CF508D-Tanya-and-Password（欧拉路径）", "/CF508D-Tanya-and-Password（欧拉路径）"]
 +++
 
 

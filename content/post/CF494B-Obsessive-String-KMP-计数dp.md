@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["字符串", "KMP", "计数dp"]
 date = "2019-05-05T13:16:44+08:00"
 description = ""
+aliases = ["/post/CF494B-Obsessive-String-KMP-计数dp", "/CF494B-Obsessive-String-KMP-计数dp"]
 +++
 
 

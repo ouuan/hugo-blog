@@ -4,6 +4,7 @@ date = "2019-10-26T19:50:25+08:00"
 categories = ["算法"]
 tags = ["图论", "网络流", "费用流"]
 description = ""
+aliases = ["/post/基于-Capacity-Scaling-的弱多项式复杂度最小费用流算法", "/基于-Capacity-Scaling-的弱多项式复杂度最小费用流算法"]
 +++
 
 

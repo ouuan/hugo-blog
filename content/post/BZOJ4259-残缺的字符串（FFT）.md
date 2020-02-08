@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["字符串", "FFT"]
 date = "2019-03-19T16:27:51+08:00"
 description = ""
+aliases = ["/post/BZOJ4259-残缺的字符串（FFT）", "/BZOJ4259-残缺的字符串（FFT）"]
 +++
 
 

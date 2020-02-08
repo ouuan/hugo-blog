@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["图论", "二分图", "网络流", "最大流"]
 date = "2019-10-15T19:50:54+08:00"
 description = ""
+aliases = ["/post/CF512C-Fox-And-Dinner（二分图，最大流）", "/CF512C-Fox-And-Dinner（二分图，最大流）"]
 +++
 
 

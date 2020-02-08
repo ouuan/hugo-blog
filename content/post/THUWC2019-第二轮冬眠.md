@@ -4,6 +4,7 @@ date = "2019-12-20T20:37:57+08:00"
 categories = ["游记"]
 tags = ["清华营"]
 description = ""
+aliases = ["/post/THUWC2019-第二轮冬眠", "/THUWC2019-第二轮冬眠"]
 +++
 
 

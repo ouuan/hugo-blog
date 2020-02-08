@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["up and down", "并查集"]
 date = "2019-09-10T13:37:12+08:00"
 description = ""
+aliases = ["/post/CF516D-Drazil-and-Morning-Exercise（up-and-down，并查集）", "/CF516D-Drazil-and-Morning-Exercise（up-and-down，并查集）"]
 +++
 
 

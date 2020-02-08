@@ -4,6 +4,7 @@ categories = ["题解"]
 tags = ["字符串", "AC自动机", "树状数组"]
 date = "2019-04-29T21:36:58+08:00"
 description = ""
+aliases = ["/post/BZOJ2434-NOI2011-阿狸的打字机（AC自动机，树状数组）", "/BZOJ2434-NOI2011-阿狸的打字机（AC自动机，树状数组）"]
 +++
 
 

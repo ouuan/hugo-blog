@@ -4,6 +4,7 @@ date = "2019-02-27T13:23:19+08:00"
 categories = ["题解"]
 tags = ["字符串", "SAM"]
 description = ""
+aliases = ["/post/CF235C-Cyclical-Quest（SAM）", "/CF235C-Cyclical-Quest（SAM）"]
 +++
 
 

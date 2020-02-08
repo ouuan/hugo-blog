@@ -4,6 +4,7 @@ date = "2018-12-22T23:03:25+08:00"
 categories = ["题解"]
 tags = ["UOJ", "通信题"]
 description = ""
+aliases = ["/post/UER-8-游记-——-通信题：打雪仗", "/UER-8-游记-——-通信题：打雪仗"]
 +++
 
 
