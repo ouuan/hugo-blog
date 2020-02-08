@@ -17,6 +17,7 @@ var fuseOptions = {
 };
 
 function executeSearch(){
+  $('#search-results').html('正在搜索中...');
   searchContent = $('#search-content')[0].value;
   if (searchContent){
     $.getJSON( "/index.json", function( data ) {
