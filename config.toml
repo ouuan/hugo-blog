@@ -60,7 +60,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   url = "/about/"
 [[menu.main]]
   name = "搜索"
-  weight = 60
+  weight = 70
   identifier = "search"
   url = "/search/"
 
