@@ -29,9 +29,10 @@
 <script src="{{ "js/search.js" | absURL }}"></script>
 <div>
   <input id="search-content" onchange   = "executeSearch();"
-                             onkeypress = "this.onchange();"
-                             onpaste    = "this.onchange();"
-                             oninput    = "this.onchange();"/>
+                             onkeypress = "executeSearch();"
+                             onpaste    = "executeSearch();"
+                             oninput    = "executeSearch();"/>
+  <i class="iconfont icon-search" onclick="executeSearch();"></i>
 </div>
 <br/>
 <div id="search-results">请在上方输入关键词进行搜索</div>
