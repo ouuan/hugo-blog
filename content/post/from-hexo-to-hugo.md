@@ -51,6 +51,9 @@ hugo 还支持 [aliases](https://gohugo.io/content-management/urls/#aliases)，�
 3. 代码复制按钮
    可以参考 [8347acf](https://github.com/ouuan/hugo-theme-even/commit/8347acfe30f386f00dd81c843a879755377cccf5)。全靠搜索引擎学来的 CSS 果然不够..就这么点东西我搞了四个小时，主要是滚动条、字体大小、行高、padding 之类杂七杂八的问题。
 
+4. GitInfo with Unicode
+   如果路径有中文，想用 GitInfo 的话就得 `git config --global core.quotePath false`，参见 [gohugoio/hugo#3071](https://github.com/gohugoio/hugo/issues/3071) 。
+
 ## Issues
 
 因为是用脚本批量改的，改完之后也没有一篇篇去检查，难免会有改错的地方以及一些死链，可以直接在评论区指出，多谢大家了。
