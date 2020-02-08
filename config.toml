@@ -208,7 +208,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   unsafe= true
 
 [frontmatter]
-  lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
+  lastmod = ["lastmod", ":git", ":default"]
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
