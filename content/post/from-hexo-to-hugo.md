@@ -40,6 +40,8 @@ hugo 的配置步骤就不说了，网上很多教程，而且这个博客是 [�
 
 由于我之前博客的地址是不带 `/post` 的，我在 404 页面上用 JS 进行了跳转。只不过这并不能挽救 SEO...
 
+其它功能都实现的很顺利，但站内搜索由于没有插件搞了很久..可以参考 [1d0901f](https://github.com/ouuan/hugo-blog/commit/1d0901fca6725480450581bb7bec28e0b2afc4d6)，如果主题不是 even 的话我这个应该就不太能直接用了，得改一下 `layout/_default/search.html` 还有 `static/js/search.js` 中的 `render` 函数。其实如果主题不是 even 的话建议以 [Client side searching for Hugo.io with Fuse.js](https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae) 为基础而不是以我魔改过的版本为基础修改，可以以我的作参考。
+
 ## Issues
 
 因为是用脚本批量改的，改完之后也没有一篇篇去检查，难免会有改错的地方以及一些死链，可以直接在评论区指出，多谢大家了。
