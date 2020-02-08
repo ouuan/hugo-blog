@@ -205,10 +205,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     privacyEnhanced = true
 
 [markup.goldmark.renderer]
-  unsafe= true
-
-[frontmatter]
-  lastmod = ["lastmod", ":git", ":default"]
+  unsafe = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
