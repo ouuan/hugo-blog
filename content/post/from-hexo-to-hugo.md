@@ -24,9 +24,9 @@ weight: 1
 从 hugo 本身来说，它最显著的优点，就是快：
 
 1. 安装快。这在本地安装时倒影响不大，而且如果你要修改主题还得用 yarn 安装包，得装上几分钟。最主要的是，安装快使得 CI 快，使用 CI 发布 hugo 博客就会非常容易且快捷。
-2. 构建快。hugo 比起 hexo 的构建速度不是快了一点点，hexo 需要十几秒才能构建完的博客，hugo 只需不到一秒。这点更加重要，它不仅加速了 CI，而且本地构建几乎没有延时，加上 server 预览使用 websocket，直接分屏当预览写博客体验良好。
+2. 构建快。hugo 比起 hexo 的构建速度不是快了一点点，hexo 需要几十秒才能构建完的博客，hugo 只需不到一秒。这点更加重要，它不仅加速了 CI，而且本地构建几乎没有延时，加上 server 预览使用 websocket，直接分屏当预览写博客体验良好。
 
-然后是不知道主题 even 还是 hugo 的特性，非常多，某些方面配置比 NexT 还完善（当然也有 NexT 有而 even 没有的）。
+但弊端也同样明显：没有插件，导致很多功能得自己写，或者复制别人的代码。只不过对于 hexo 都能改到 node_modules 里面的魔改玩家来说，这都不算什么（
 
 只不过我一直用的是 2018 年 12 月那时的 hexo 和 NexT，这一年来 hexo 可能也有很多改进，所以我的比较不一定准确。
 
@@ -40,7 +40,16 @@ hugo 的配置步骤就不说了，网上很多教程，而且这个博客是 [�
 
 由于我之前博客的地址是不带 `/post` 的，我在 404 页面上用 JS 进行了跳转。只不过这并不能挽救 SEO...
 
-其它功能都实现的很顺利，但站内搜索由于没有插件搞了很久..可以参考 [1d0901f](https://github.com/ouuan/hugo-blog/commit/1d0901fca6725480450581bb7bec28e0b2afc4d6)，如果主题不是 even 的话我这个应该就不太能直接用了，得改一下 `layout/_default/search.html` 还有 `static/js/search.js` 中的 `render` 函数。其实如果主题不是 even 的话建议以 [Client side searching for Hugo.io with Fuse.js](https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae) 为基础而不是以我魔改过的版本为基础修改，可以以我的作参考。
+几个搞了比较久的功能：
+
+1. 站内搜索
+   可以参考 [1d0901f](https://github.com/ouuan/hugo-blog/commit/1d0901fca6725480450581bb7bec28e0b2afc4d6)，如果主题不是 even 的话我这个应该就不太能直接用了，得改一下 `layout/_default/search.html` 还有 `static/js/search.js` 中的 `render` 函数。其实如果主题不是 even 的话建议以 [Client side searching for Hugo.io with Fuse.js](https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae) 为基础而不是以我魔改过的版本为基础修改，可以以我的作参考。
+
+2. 代码高亮
+   推荐使用 highlight.js 而不是 chroma。even 主题把 highlight.js 的 CSS 放到了自己的 `_code.scss` 里，所以光是加上一个 highlight.js 的 CSS 是不够的，还得在 `_code.scss` 里把 hljs 相关的删掉，如果是 dark theme 还得修改背景颜色。
+
+3. 代码复制按钮
+   可以参考 [8347acf](https://github.com/ouuan/hugo-theme-even/commit/8347acfe30f386f00dd81c843a879755377cccf5)。全靠搜索引擎学来的 CSS 果然不够..就这么点东西我搞了四个小时，主要是滚动条、字体大小、行高、padding 之类杂七杂八的问题。
 
 ## Issues
 
