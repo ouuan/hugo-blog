@@ -40,21 +40,29 @@ function populateResults(result, searchContent){
   $.each(result,function(key,value){
     var contents= value.item.contents;
     var snippet = "";
-    var snippetHighlights=[];
+    var snippetHighlights = [searchContent];
+
+    var pos = contents.indexOf(searchContent);
+    if (pos != -1) {
+      start = pos - summaryInclude;
+      end = pos + searchContent.length + summaryInclude;
+      if (start < 0) start = 0;
+      if (end > contents.length) end = contents.length;
+      snippet = contents.substring(start, end);
+    }
 
     $.each(value.matches,function(matchKey,mvalue) {
       start = mvalue.indices[0][0] - summaryInclude;
       end = mvalue.indices[0][1] + summaryInclude + 1;
       if (start < 0) start = 0;
       if (end > mvalue.value.length) end = mvalue.value.length;
-      if (mvalue.key == "contents") {
+      if (pos == -1 && mvalue.key == "contents") {
         snippet += mvalue.value.substring(start,end);
       }
       snippetHighlights.push(mvalue.value.substring(mvalue.indices[0][0],mvalue.indices[0][1] + 1));
     });
 
     if(snippet.length<1){
-      var pos = contents.indexOf(key);
       snippet += contents.substring(0,summaryInclude*2);
     }
     //pull template from hugo templarte definition
