@@ -14,7 +14,9 @@ aliases = ["/post/hexo博客搭建指北", "/hexo博客搭建指北"]
 
 <!-- more -->
 
-> 本篇博客不完全按照顺序撰写，可以通过页面左边的目录跳转阅读。
+{{% warning %}}
+本博客已从 hexo 迁移至 hugo，详见 [从 hexo 到 hugo](/post/from-hexo-to-hugo) 。
+{{% /warning %}}
 
 # 博客的搭建
 
