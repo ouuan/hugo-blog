@@ -32,7 +32,7 @@ aliases = ["/post/BZOJ4259-残缺的字符串（FFT）", "/BZOJ4259-残缺的字
 
 推一波式子：
 
-$\begin{aligned}dis(A,B[i..i+m-1])&=\sum\limits_{j=0}^{m-1}(A'[m-j-1]-B[i+j])^2A'[m-j-1]B[i+j]\\\\&=\left(\sum\limits_{j=0}^{m-1}A'[m-j-1]B^3[i+j]\right)-2\left(\sum\limits_{j=0}^{m-1}(A')^2[m-j-1]B^2[i+j]\right)+\left(\sum\limits_{j=0}^{m-1}(A')^3[m-j-1]B[i+j]\right)\end{aligned}$
+$\begin{aligned}&dis(A,B[i..i+m-1])\\\\=&\sum\limits_{j=0}^{m-1}(A'[m-j-1]-B[i+j])^2A'[m-j-1]B[i+j]\\\\=&\left(\sum\limits_{j=0}^{m-1}A'[m-j-1]B^3[i+j]\right)-2\left(\sum\limits_{j=0}^{m-1}(A')^2[m-j-1]B^2[i+j]\right)+\left(\sum\limits_{j=0}^{m-1}(A')^3[m-j-1]B[i+j]\right)\end{aligned}$
 
 设 $f(i)=\sum\limits_{j=0}^{i}A'[i-j]B^3[j]​$（即它们的卷积），将 $A'[m..n-1]​$ 设为 $0​$，那么 $\sum\limits_{j=0}^{m-1}A'[m-j-1]B^3[i+j]=f(i+m-1)​$。
 
