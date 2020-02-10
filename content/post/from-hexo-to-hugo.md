@@ -40,19 +40,32 @@ hugo 的配置步骤就不说了，网上很多教程，而且这个博客是 [�
 
 hugo 还支持 [aliases](https://gohugo.io/content-management/urls/#aliases)，所以链接改动可以轻松处理。
 
-几个搞了比较久的功能：
+几个值得提醒的地方：（大约是我认为“已经完全搞好了！”之后遇到的问题，也就是你按网上的教程搞完之后仍然容易遇到的问题）
 
 1. 站内搜索
+   
    可以参考 [1d0901f](https://github.com/ouuan/hugo-blog/commit/1d0901fca6725480450581bb7bec28e0b2afc4d6)，如果主题不是 even 的话我这个应该就不太能直接用了，得改一下 `layout/_default/search.html` 还有 `static/js/search.js` 中的 `render` 函数。其实如果主题不是 even 的话建议以 [Client side searching for Hugo.io with Fuse.js](https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae) 为基础而不是以我魔改过的版本为基础修改，可以以我的作参考。
 
 2. 代码高亮
+   
    推荐使用 highlight.js 而不是 chroma。even 主题把 highlight.js 的 CSS 放到了自己的 `_code.scss` 里，所以光是加上一个 highlight.js 的 CSS 是不够的，还得在 `_code.scss` 里把 hljs 相关的删掉，如果是 dark theme 还得修改背景颜色。
 
 3. 代码复制按钮
+   
    可以参考 [8347acf](https://github.com/ouuan/hugo-theme-even/commit/8347acfe30f386f00dd81c843a879755377cccf5)。全靠搜索引擎学来的 CSS 果然不够..就这么点东西我搞了四个小时，主要是滚动条、字体大小、行高、padding 之类杂七杂八的问题。
 
 4. GitInfo with Unicode
+   
    如果路径有中文，想用 GitInfo 的话就得 `git config --global core.quotePath false`，参见 [gohugoio/hugo#3071](https://github.com/gohugoio/hugo/issues/3071) 。
+
+5. Table Of Content with h1
+   
+   默认情况下右侧目录是从 `<h2>` 开始的，如果你的文章中含有 `<h1>`（也就是 Markdown 中的单个 `#`），目录就会挂掉。在文章中使用 `<h1>` 是 **不被推荐** 的，但我自己一年前写的一些博客里有 `<h1>`，虽然批量修改也不难，但还有一种解决方案：在 `config.toml` 中加入：
+
+   ```toml
+   [markup.tableOfContents]
+     startLevel = 1
+   ```
 
 ## Issues
 
