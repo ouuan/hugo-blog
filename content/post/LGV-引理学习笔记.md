@@ -1,7 +1,7 @@
 +++
 title = "LGV 引理学习笔记"
 date = "2019-09-03T21:54:43+08:00"
-categories = ["算法"]
+categories = ["知识点"]
 tags = ["图论", "线性代数"]
 description = ""
 aliases = ["/post/LGV-引理学习笔记", "/LGV-引理学习笔记"]

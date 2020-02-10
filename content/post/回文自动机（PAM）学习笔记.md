@@ -1,7 +1,7 @@
 +++
 title = "回文自动机（PAM）学习笔记"
 date = "2019-05-10T22:31:05+08:00"
-categories = ["算法"]
+categories = ["知识点"]
 tags = ["字符串", "PAM"]
 description = ""
 aliases = ["/post/回文自动机（PAM）学习笔记", "/回文自动机（PAM）学习笔记"]

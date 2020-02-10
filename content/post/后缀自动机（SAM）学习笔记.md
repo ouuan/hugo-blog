@@ -1,7 +1,7 @@
 +++
 title = "后缀自动机（SAM）学习笔记"
 date = "2019-02-22T12:31:37+08:00"
-categories = ["算法"]
+categories = ["知识点"]
 tags = ["字符串", "SAM"]
 description = ""
 aliases = ["/post/后缀自动机（SAM）学习笔记", "/后缀自动机（SAM）学习笔记"]
