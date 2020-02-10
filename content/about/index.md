@@ -5,6 +5,15 @@ date = 2018-12-05T13:40:21+08:00
 
 ---
 
+OJ 账号：
+
+- [CF](https://codeforces.com/profile/ouuan)
+- [洛谷](https://www.luogu.com.cn/user/49742)
+- [UOJ](http://uoj.ac/user/profile/ouuan)
+- [LOJ](https://loj.ac/user/9706)
+
+---
+
 在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 以获得更好的阅读体验。
 
 本博客中还有少量含有中文的 LaTeX 公式，所以推荐安装 MathJax 的 Unicode 字体 [Arial Unicode MS](/fonts/arial-unicode-ms_2.ttf) 。
@@ -42,11 +51,6 @@ A: utterance 的加载是一件玄学的事情，有时加载速度会非常慢�
 ---
 
 ouuan，HB 现役 oier。最喜欢的番剧/漫画是 [三月のライオン](https://www.bilibili.com/bangumi/media/md5523/) 。
-
-- [CF](https://codeforces.com/profile/ouuan)
-- [洛谷](https://www.luogu.com.cn/user/49742)
-- [UOJ](http://uoj.ac/user/profile/ouuan)
-- [LOJ](https://loj.ac/user/9706)
 
 初三：
 
