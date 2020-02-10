@@ -67,6 +67,8 @@ hugo 还支持 [aliases](https://gohugo.io/content-management/urls/#aliases)，�
      startLevel = 1
    ```
 
+如果对我博客的配置感兴趣，还可以参考 [config.toml](https://github.com/ouuan/hugo-blog/commits/master/config.toml) 和 [even 主题](https://github.com/ouuan/hugo-theme-even/commits/) 的历史记录。
+
 ## Issues
 
 因为是用脚本批量改的，改完之后也没有一篇篇去检查，难免会有改错的地方以及一些死链，可以直接在评论区指出，多谢大家了。
