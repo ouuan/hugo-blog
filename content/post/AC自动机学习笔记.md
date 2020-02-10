@@ -1,7 +1,7 @@
 +++
 title = "AC自动机学习笔记"
 date = "2019-04-29T15:39:10+08:00"
-categories = ["算法"]
+categories = ["知识点"]
 tags = ["字符串", "AC自动机"]
 description = ""
 aliases = ["/post/AC自动机学习笔记", "/AC自动机学习笔记"]
