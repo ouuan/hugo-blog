@@ -26,7 +26,7 @@ cdq分治也是咕了好久了..最近总算把它学了。
 
 # 例题
 
-## [**P3374** 【模板】树状数组 1](https://www.luogu.org/problemnew/show/P3374) 
+## [【模板】树状数组 1](https://www.luogu.org/problemnew/show/P3374)
 
 <del>树状数组裸题！</del>冷静，我们来用ex归并排序做..（嗯，我决定就这么叫它了）
 
@@ -224,7 +224,7 @@ void solve(int l,int r)
 
 {{% /admonition %}}
 
-# [**P3810** 【模板】三维偏序（陌上花开）](https://www.luogu.org/problemnew/show/P3810) 
+# [【模板】三维偏序（陌上花开）](https://www.luogu.org/problemnew/show/P3810)
 
 有两种做法，一种是cdq分治套树状数组，需要注意的有两点，一是清空树状数组可以用时间戳，二是 $a,\,b,\,c$ 都相等的元素要合并。
 
@@ -545,7 +545,7 @@ void solve(int l,int r,int d)
                 a[d][p].type=1;
                 if (d==k-1) ++sum;
             }
-            ++p; 
+            ++p;
         }
         else
         {
