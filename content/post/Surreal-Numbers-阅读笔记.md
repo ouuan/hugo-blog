@@ -79,7 +79,7 @@ $$x\le y\land y\le z\Rightarrow x\le z$$
 
 $\because x\not\le z$
 
-$\therefore \exists\ x_L\ge z\lor\exists\ z_R\le x$
+$\therefore \exists\\ x_L\ge z\lor\exists\\ z_R\le x$
 
 当 $x_L\ge z$ 时
 
