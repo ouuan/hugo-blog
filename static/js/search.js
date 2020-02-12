@@ -42,7 +42,9 @@ function populateResults(result, searchContent){
     var snippet = "";
     var snippetHighlights = [searchContent];
 
-    var pos = contents.indexOf(searchContent);
+    var s1 = contents.toLocaleLowerCase();
+    var s2 = searchContent.toLocaleLowerCase();
+    var pos = s1.indexOf(s2);
     if (pos != -1) {
       start = pos - summaryInclude;
       end = pos + searchContent.length + summaryInclude;
