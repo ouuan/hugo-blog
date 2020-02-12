@@ -296,19 +296,20 @@ $1\le n\le2\times 10^5$，$1\le m\le3000$。
 
    这样的话就只用计算 $f_1[i][j][k]$ 了。
 
-2. 注意到 $i,\,j,\,k,\,m$ 有一些联系。实际上可以令 $f'_w[i][j]$ 表示 $f_w[m-i-j][SA+i][SB-j]$（这里的 $SA$ 和 $SB$ 都是未操作时的初始值）。
+2. 注意到 $i$, $j$, $k$, $m$ 有一些联系。实际上可以令 $f'_w[i][j]$ 表示 $f_w[m-i-j][SA+i][SB-j]$（这里的 $SA$ 和 $SB$ 都是未操作时的初始值）。
 
 令 $g'_1[i][j]$ 表示 $g_w[m-i-j][SA+i][SB-j]$，计算方式类似。
 
 **总结**
 
-$f'_1[i][j]=1\ (i+j=m)$
-
-$f'_1[i][j]=\frac{SA+i+1}{SA+SB+i-j}f'_1[i+1][j]+\frac{SB-j}{SA+SB+i-j}f'_1[i][j+1]\ (i+j<m)$
-
-$g'_1[i][j]=1\ (i+j=m)$
-
-$g'_1[i][j]=\frac{SA+i}{SA+SB+i-j}g'_1[i+1][j]+\frac{SB-j-1}{SA+SB+i-j}g'_1[i][j+1]\ (i+j<m)$
+$$
+\begin{aligned}
+f'_1[i][j]&=1&(i+j=m)\\\\
+f'_1[i][j]&=\frac{SA+i+1}{SA+SB+i-j}f'_1[i+1][j]+\frac{SB-j}{SA+SB+i-j}f'_1[i][j+1]&(i+j<m)\\\\
+g'_1[i][j]&=1&(i+j=m)\\\\
+g'_1[i][j]&=\frac{SA+i}{SA+SB+i-j}g'_1[i+1][j]+\frac{SB-j-1}{SA+SB+i-j}g'_1[i][j+1]&(i+j<m)
+\end{aligned}
+$$
 
 “被喜欢的”位置答案是 $w_if'_1[0][0]$，“不被喜欢的”位置答案是 $w_ig'_1[0][0]$。
 
