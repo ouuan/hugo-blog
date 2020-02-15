@@ -67,7 +67,10 @@ hugo 还支持 [aliases](https://gohugo.io/content-management/urls/#aliases)，�
 ```toml
 [markup.tableOfContents]
   startLevel = 1
+  endLevel = 4
 ```
+
+这样从 `<h1>` 到 `<h4>` 都会在目录中显示。
 
 ### HTML in links
 
