@@ -212,6 +212,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
 [markup.tableOfContents]
   startLevel = 1
+  endLevel = 4
 
 # 将下面这段配置取消注释可以使 hugo 生成 .md 文件
 # Uncomment these options to make hugo output .md files.
