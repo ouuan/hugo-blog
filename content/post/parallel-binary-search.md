@@ -26,7 +26,7 @@ tags = ['整体二分', '离线算法', '二分答案']
 
 一个 **修改** $m$ 具有 **指标** $m.index$ 和 **贡献** $m.contribution$ 两个属性，其中指标属于指标集合，贡献属于贡献集合。
 
-一个 **询问** $q$ 包含一个 **目标函数** $q.f:\mathbf{CONTRIBUTION}\to\\{0, 1\\}$（输入是贡献集合，输出是 $0$ 或 $1$），满足 $\forall x, y\in\mathbf{CONTRIBUTION}, q.f(x)=1\implies q.f(x+y)=1$（这条性质保证了可二分性）。
+一个 **询问** $q$ 包含一个 **目标函数** $q.f:\mathbf{CONTRIBUTION}\to\\{0, 1\\}$（输入是一个贡献，输出是 $0$ 或 $1$），满足 $\forall x, y\in\mathbf{CONTRIBUTION}, q.f(x)=1\implies q.f(x+y)=1$（这条性质保证了可二分性）。
 
 那么，一个可以被整体二分解决的问题可以表述如下：
 
