@@ -22,7 +22,7 @@ OJ 账号：
 
 Q: 博客里的 XX 功能是怎么做到的啊？
 
-A: 本博客所有代码 [开源](https://github.com/ouuan/hugo-blog)，请先自己找，找不到可以在评论区问。
+A: 本博客所有代码 [开源](https://github.com/ouuan/hugo-blog)，请先自己找，还可以参考 [从 Hexo 到 Hugo](/post/from-hexo-to-hugo/#process)，找不到可以在评论区问。
 
 Q: 为什么大部分题解里的题意简述数据范围不全，甚至不太看得懂？
 
