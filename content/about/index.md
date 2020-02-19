@@ -50,7 +50,7 @@ A: utterance 的加载是一件玄学的事情，有时加载速度会非常慢�
 
 ---
 
-ouuan，HB 现役 oier。最喜欢的番剧/漫画是 [三月のライオン](https://www.bilibili.com/bangumi/media/md5523/) 。
+ouuan，HB 现役 OIer。最喜欢的番剧/漫画是 [三月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，同时还是 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，[CL](https://www.bilibili.com/bangumi/media/md1177/)er，[海子姐](https://space.bilibili.com/434334701)单推，偶尔[做做视频](https://space.bilibili.com/11067182)，沉迷 [contribute](https://github.com/ouuan)，经常思考社会问题，却看不清自己的未来。
 
 初三：
 
