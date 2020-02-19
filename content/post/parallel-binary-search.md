@@ -60,34 +60,36 @@ tags = ['整体二分', '离线算法', '二分答案']
 $$
 \begin{array}{rl}
 1&\textbf{function}\text{ PARALLEL_BINARY_SEARCH}(l, r, M, Q)\\\\
-2&\qquad \textbf{if }l=r\\\\
-3&\qquad\qquad \text{The answer of all queries in }Q\text{ is }l\\\\
-4&\qquad\qquad \textbf{return}\\\\
-5&\qquad mid\gets \text{middle of }l\text{ and }r\\\\
-6&\qquad \mathrm{LM}\gets\varnothing\\\\
-7&\qquad \mathrm{RM}\gets\varnothing\\\\
-8&\qquad sum\gets(\mathbf{CONTRIBUTION}, +)\text{ 的单位元}\\\\
-9&\qquad \textbf{for each }m\in M\\\\
-10&\qquad\qquad \textbf{if }m.index\le mid\\\\
-11&\qquad\qquad\qquad sum\gets sum+m.contribution\\\\
-12&\qquad\qquad\qquad \mathrm{LM}\gets \mathrm{LM}\bigcup\\{m\\}\\\\
-13&\qquad\qquad \textbf{else}\\\\
-14&\qquad\qquad\qquad \mathrm{RM}\gets \mathrm{RM}\bigcup\\{m\\}\\\\
-15&\qquad \mathrm{LQ}\gets\varnothing\\\\
-16&\qquad \mathrm{RQ}\gets\varnothing\\\\
-17&\qquad \textbf{for each }q\in Q\\\\
-18&\qquad\qquad \textbf{if }q.f(q.current+sum)=1\\\\
-19&\qquad\qquad\qquad \mathrm{LQ}\gets \mathrm{LQ}\bigcup \\{q\\}\\\\
-20&\qquad\qquad \textbf{else}\\\\
-21&\qquad\qquad\qquad q.current\gets q.current+sum\\\\
-22&\qquad\qquad\qquad \mathrm{RQ}\gets \mathrm{RQ}\bigcup \\{q\\}\\\\
-23&\qquad \text{PARALLEL_BINARY_SEARCH}(l, mid, \mathrm{LM}, \mathrm{LQ})\\\\
-24&\qquad \text{PARALLEL_BINARY_SEARCH}(mid\text{ 的后继}, r, \mathrm{RM}, \mathrm{RQ})\\\\
-25&\\\\
-26&\textbf{function}\text{ SOLVE(M, Q)}\\\\
-27&\qquad \textbf{for each }q\in Q\\\\
-28&\qquad\qquad q.current\gets(\mathbf{CONTRIBUTION}, +)\text{ 的单位元}\\\\
-29&\qquad \text{PARALLEL_BINARY_SEARCH}(\min\\{\mathbf{INDEX}\\}, \max\\{\mathbf{INDEX}\\}, M, Q)
+2&\qquad\textbf{if }Q=\varnothing\\\\
+3&\qquad\qquad\textbf{return}\\\\
+4&\qquad \textbf{if }l=r\\\\
+5&\qquad\qquad \text{The answer of all queries in }Q\text{ is }l\\\\
+6&\qquad\qquad \textbf{return}\\\\
+7&\qquad mid\gets \text{middle of }l\text{ and }r\\\\
+8&\qquad \mathrm{LM}\gets\varnothing\\\\
+9&\qquad \mathrm{RM}\gets\varnothing\\\\
+10&\qquad sum\gets(\mathbf{CONTRIBUTION}, +)\text{ 的单位元}\\\\
+11&\qquad \textbf{for each }m\in M\\\\
+12&\qquad\qquad \textbf{if }m.index\le mid\\\\
+13&\qquad\qquad\qquad sum\gets sum+m.contribution\\\\
+14&\qquad\qquad\qquad \mathrm{LM}\gets \mathrm{LM}\bigcup\\{m\\}\\\\
+15&\qquad\qquad \textbf{else}\\\\
+16&\qquad\qquad\qquad \mathrm{RM}\gets \mathrm{RM}\bigcup\\{m\\}\\\\
+17&\qquad \mathrm{LQ}\gets\varnothing\\\\
+18&\qquad \mathrm{RQ}\gets\varnothing\\\\
+19&\qquad \textbf{for each }q\in Q\\\\
+20&\qquad\qquad \textbf{if }q.f(q.current+sum)=1\\\\
+21&\qquad\qquad\qquad \mathrm{LQ}\gets \mathrm{LQ}\bigcup \\{q\\}\\\\
+22&\qquad\qquad \textbf{else}\\\\
+23&\qquad\qquad\qquad q.current\gets q.current+sum\\\\
+24&\qquad\qquad\qquad \mathrm{RQ}\gets \mathrm{RQ}\bigcup \\{q\\}\\\\
+25&\qquad \text{PARALLEL_BINARY_SEARCH}(l, mid, \mathrm{LM}, \mathrm{LQ})\\\\
+26&\qquad \text{PARALLEL_BINARY_SEARCH}(mid\text{ 的后继}, r, \mathrm{RM}, \mathrm{RQ})\\\\
+27&\\\\
+28&\textbf{function}\text{ SOLVE(M, Q)}\\\\
+29&\qquad \textbf{for each }q\in Q\\\\
+30&\qquad\qquad q.current\gets(\mathbf{CONTRIBUTION}, +)\text{ 的单位元}\\\\
+31&\qquad \text{PARALLEL_BINARY_SEARCH}(\min\\{\mathbf{INDEX}\\}, \max\\{\mathbf{INDEX}\\}, M, Q)
 \end{array}
 $$
 
@@ -100,32 +102,34 @@ $$
 1&current\gets(\mathbf{CONTRIBUTION}, +)\text{ 的单位元}\\\\
 2&\\\\
 3&\textbf{function}\text{ PARALLEL_BINARY_SEARCH}(l, r, M, Q)\\\\
-4&\qquad \textbf{if }l=r\\\\
-5&\qquad\qquad \text{The answer of all queries in }Q\text{ is }l\\\\
-6&\qquad\qquad \textbf{return}\\\\
-7&\qquad mid\gets \text{middle of }l\text{ and }r\\\\
-8&\qquad \mathrm{LM}\gets\varnothing\\\\
-9&\qquad \mathrm{RM}\gets\varnothing\\\\
-10&\qquad old\gets current\\\\
-11&\qquad \textbf{for each }m\in M\\\\
-12&\qquad\qquad \textbf{if }m.index\le mid\\\\
-13&\qquad\qquad\qquad current\gets current+m.contribution\\\\
-14&\qquad\qquad\qquad \mathrm{LM}\gets \mathrm{LM}\bigcup\\{m\\}\\\\
-15&\qquad\qquad \textbf{else}\\\\
-16&\qquad\qquad\qquad \mathrm{RM}\gets \mathrm{RM}\bigcup\\{m\\}\\\\
-17&\qquad \mathrm{LQ}\gets\varnothing\\\\
-18&\qquad \mathrm{RQ}\gets\varnothing\\\\
-19&\qquad \textbf{for each }q\in Q\\\\
-20&\qquad\qquad \textbf{if }q.f(current)=1\\\\
-21&\qquad\qquad\qquad \mathrm{LQ}\gets \mathrm{LQ}\bigcup \\{q\\}\\\\
-22&\qquad\qquad \textbf{else}\\\\
-23&\qquad\qquad\qquad \mathrm{RQ}\gets \mathrm{RQ}\bigcup \\{q\\}\\\\
-24&\qquad \text{PARALLEL_BINARY_SEARCH}(mid\text{ 的后继}, r, \mathrm{RM}, \mathrm{RQ})\\\\
-25&\qquad current\gets old\\\\
-26&\qquad \text{PARALLEL_BINARY_SEARCH}(l, mid, \mathrm{LM}, \mathrm{LQ})\\\\
-27&\\\\
-28&\textbf{function}\text{ SOLVE(M, Q)}\\\\
-29&\qquad \text{PARALLEL_BINARY_SEARCH}(\min\\{\mathbf{INDEX}\\}, \max\\{\mathbf{INDEX}\\}, M, Q)
+4&\qquad\textbf{if }Q=\varnothing\\\\
+5&\qquad\qquad\textbf{return}\\\\
+6&\qquad \textbf{if }l=r\\\\
+7&\qquad\qquad \text{The answer of all queries in }Q\text{ is }l\\\\
+8&\qquad\qquad \textbf{return}\\\\
+9&\qquad mid\gets \text{middle of }l\text{ and }r\\\\
+10&\qquad \mathrm{LM}\gets\varnothing\\\\
+11&\qquad \mathrm{RM}\gets\varnothing\\\\
+12&\qquad old\gets current\\\\
+13&\qquad \textbf{for each }m\in M\\\\
+14&\qquad\qquad \textbf{if }m.index\le mid\\\\
+15&\qquad\qquad\qquad current\gets current+m.contribution\\\\
+16&\qquad\qquad\qquad \mathrm{LM}\gets \mathrm{LM}\bigcup\\{m\\}\\\\
+17&\qquad\qquad \textbf{else}\\\\
+18&\qquad\qquad\qquad \mathrm{RM}\gets \mathrm{RM}\bigcup\\{m\\}\\\\
+19&\qquad \mathrm{LQ}\gets\varnothing\\\\
+20&\qquad \mathrm{RQ}\gets\varnothing\\\\
+21&\qquad \textbf{for each }q\in Q\\\\
+22&\qquad\qquad \textbf{if }q.f(current)=1\\\\
+23&\qquad\qquad\qquad \mathrm{LQ}\gets \mathrm{LQ}\bigcup \\{q\\}\\\\
+24&\qquad\qquad \textbf{else}\\\\
+25&\qquad\qquad\qquad \mathrm{RQ}\gets \mathrm{RQ}\bigcup \\{q\\}\\\\
+26&\qquad \text{PARALLEL_BINARY_SEARCH}(mid\text{ 的后继}, r, \mathrm{RM}, \mathrm{RQ})\\\\
+27&\qquad current\gets old\\\\
+28&\qquad \text{PARALLEL_BINARY_SEARCH}(l, mid, \mathrm{LM}, \mathrm{LQ})\\\\
+29&\\\\
+30&\textbf{function}\text{ SOLVE(M, Q)}\\\\
+31&\qquad \text{PARALLEL_BINARY_SEARCH}(\min\\{\mathbf{INDEX}\\}, \max\\{\mathbf{INDEX}\\}, M, Q)
 \end{array}
 $$
 
@@ -134,7 +138,7 @@ $$
 整体二分算法的核心在于：
 
 1. 整体地计算多个修改对多个询问的贡献。
-2. 伪代码 1 的 21 行处 / 伪代码 2 的先处理右半部分再回退左半修改，将左半修改对右半询问的贡献应用到整个处理右半部分的过程中，之后不再重复计算。
+2. 伪代码 1 的 23 行处 / 伪代码 2 的先处理右半部分再回退左半修改，将左半修改对右半询问的贡献应用到整个处理右半部分的过程中，之后不再重复计算。
 
 令计算两个贡献之和的时间复杂度为 $O(f(\cdots))$，判定一个贡献是否达到一个询问的目标的时间复杂度为 $O(g(\cdots))$，那么总的时间复杂度为:（"$\cdots$" 表示会对复杂度造成影响的各种因素）
 
