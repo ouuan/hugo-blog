@@ -1,7 +1,7 @@
 +++
 title = "CF1260F Colored Tree（点分治，差分，基数排序）"
 categories = ["题解"]
-tags = ["点分治", "差分", "基数排序", "数据结构", "概率期望"]
+tags = ["点分治", "差分", "基数排序", "数据结构", "概率期望", "分治"]
 date = "2019-11-29T14:00:53+08:00"
 description = ""
 aliases = ["/post/CF1260F-Colored-Tree（点分治，差分，基数排序）", "/CF1260F-Colored-Tree（点分治，差分，基数排序）"]

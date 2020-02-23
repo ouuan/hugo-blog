@@ -2,7 +2,7 @@
 title = "cdq分治学习笔记"
 date = "2019-03-26T18:49:44+08:00"
 categories = ["知识点"]
-tags = ["离线算法", "cdq分治"]
+tags = ["离线算法", "cdq分治", "分治"]
 description = ""
 aliases = ["/post/cdq分治学习笔记", "/cdq分治学习笔记"]
 +++
