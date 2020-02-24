@@ -9,16 +9,16 @@ install:
 
 script: |
   git config --global core.quotePath false
-  hugo
+  hugo --minify
 
 deploy:
-    provider: pages
-    skip_cleanup: true
-    github_token: $GITHUB_TOKEN
-    on:
-        branch: master
-    local_dir: public
-    repo: ouuan/ouuan.github.io
-    target_branch: master
-    email: y___o___u@126.com
-    name: ouuan
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+  local_dir: public
+  repo: ouuan/ouuan.github.io
+  target_branch: master
+  email: y___o___u@126.com
+  name: ouuan
