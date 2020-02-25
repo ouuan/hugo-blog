@@ -99,7 +99,7 @@ $$
 
 $$
 \begin{array}{rl}
-1&current\gets(\mathbf{CONTRIBUTION}, +)\text{ 的单位元}\\\\
+1& current\gets(\mathbf{CONTRIBUTION}, +)\text{ 的单位元}\\\\
 2&\\\\
 3&\textbf{function}\text{ PARALLEL_BINARY_SEARCH}(l, r, M, Q)\\\\
 4&\qquad\textbf{if }Q=\varnothing\\\\
