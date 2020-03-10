@@ -20,5 +20,5 @@ deploy:
   local_dir: public
   repo: ouuan/ouuan.github.io
   target_branch: master
-  email: y___o___u@126.com
+  email: ouuansteve@gmail.com
   name: ouuan
