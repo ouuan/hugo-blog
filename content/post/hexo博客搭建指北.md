@@ -534,7 +534,7 @@ body {
 
   <div class="comments">
     <script src="https://utteranc.es/client.js"
-        repo="ouuan/hexo-blog-utterances"
+        repo="ouuan/blog-comments"
         issue-term="title"
         label="utterances"
         theme="github-light"
