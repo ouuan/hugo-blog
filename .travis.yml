@@ -9,7 +9,7 @@ install:
 
 script: |
   git config --global core.quotePath false
-  hugo --minify
+  hugo
 
 deploy:
   provider: pages
