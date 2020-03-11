@@ -30,7 +30,7 @@ A: 因为这是题解不是题面，题意简述的目的是让人尽快知道�
 
 Q: 为什么我没看见评论区？
 
-A: utterance 的加载是一件玄学的事情，有时加载速度会非常慢。如果实在加载不出来，可以直接在 [issues](https://github.com/ouuan/hexo-blog-utterances/issues) 里留言。如果新开 issue 需要注意一下 issue 标题的格式（可以在博客页面 F12 然后 Ctrl + F 搜索 `</title>`，在 `<title>` 和 `</title>` 之间就是标题）（在 chrome 中还可以收藏博客，把默认的标题复制下来）。
+A: utterance 的加载是一件玄学的事情，有时加载速度会非常慢。如果实在加载不出来，可以直接在 [issues](https://github.com/ouuan/blog-comments/issues) 里留言。如果新开 issue 需要注意一下 issue 标题的格式（可以在博客页面 F12 然后 Ctrl + F 搜索 `</title>`，在 `<title>` 和 `</title>` 之间就是标题）（在 chrome 中还可以收藏博客，把默认的标题复制下来）。
 
 ---
 
