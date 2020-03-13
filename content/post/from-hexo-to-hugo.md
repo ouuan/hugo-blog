@@ -32,7 +32,9 @@ weight: 1
 
 ## Process
 
-hugo 的配置步骤就不说了，网上很多教程，而且这个博客是 [开源](https://github.com/ouuan/hugo-blog) 的，可以自己看。稍微提醒一下，CI 配置中的 `$GITHUB_TOKEN` 需要在 travis.ci 上进行设置。
+hugo 的配置步骤就不说了，网上很多教程，而且这个博客是 [开源](https://github.com/ouuan/hugo-blog) 的，可以自己看。
+
+本博客使用 GitHub Actions 进行自动发布，详见 [配置文件](https://github.com/ouuan/hugo-blog/blob/master/.github/workflows/deploy.yml)。`PERSONAL_TOKEN` 需要在 repo 的 settings 里设置，但如果源码和博客在同一个 repo 里就可以直接用 `GITHUB_TOKEN` 了。
 
 从 hexo 搬到 hugo 可以参考这篇博客：[Hugo 与 Hexo 的异同 | reuixiy](https://io-oi.me/tech/hugo-vs-hexo/) 。
 
