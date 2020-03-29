@@ -10,7 +10,7 @@ aliases = ["/post/「NOI2018」你的名字（SAM，线段树合并）", "/「NO
 
 ## 题目链接
 
-[UOJ](http://uoj.ac/problem/395)
+[UOJ](https://uoj.ac/problem/395)
 
 [LOJ](https://loj.ac/problem/2720)
 

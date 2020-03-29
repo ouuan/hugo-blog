@@ -8,7 +8,7 @@ aliases = ["/post/UOJ-无限-waiting-的解决方法", "/UOJ-无限-waiting-的�
 +++
 
 
-本文讲的是自己搭建的 UOJ 如何解决无限 waiting，而不是 <http://uoj.ac> 如何解决无限 waiting（后者大概要联系 vfk..反正我是没遇到过）。
+本文讲的是自己搭建的 UOJ 如何解决无限 waiting，而不是 <https://uoj.ac> 如何解决无限 waiting（后者大概要联系 vfk..反正我是没遇到过）。
 
 <!--more-->
 

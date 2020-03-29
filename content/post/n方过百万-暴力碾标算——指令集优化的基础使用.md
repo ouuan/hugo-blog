@@ -174,7 +174,7 @@ int main()
 
 [[Ynoi2018]五彩斑斓的世界](https://www.luogu.org/problemnew/show/P4117)，神司怒艹lxl标算的课件例题。
 
-[Simple Tree](http://uoj.ac/problem/435)，这个还要树剖，只不过也还好，神司是直接内嵌汇编写的，没有测过用函数能不能过..
+[Simple Tree](https://uoj.ac/problem/435)，这个还要树剖，只不过也还好，神司是直接内嵌汇编写的，没有测过用函数能不能过..
 
 然后以教主的魔法为例讲一下代码：
 

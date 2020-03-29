@@ -73,7 +73,7 @@ UPD: 本文已于 [pr #1672](https://github.com/OI-wiki/OI-wiki/pull/1672) 经�
 >
 > —— 王天懿《论偏题的危害》
 
-经典例子：[【清华集训2015】多边形下海](http://uoj.ac/problem/159)
+经典例子：[【清华集训2015】多边形下海](https://uoj.ac/problem/159)
 
 不止是物理，OI 题目中不应过多涉及到其它学科的知识，如果涉及应当给予详细的解释，不应使其它学科的知识作为解题的重大障碍。
 
@@ -83,7 +83,7 @@ UPD: 本文已于 [pr #1672](https://github.com/OI-wiki/OI-wiki/pull/1672) 经�
 >
 > —— 王天懿《论偏题的危害》
 
-经典例子：[[SDOI2010]猪国杀](https://www.luogu.org/problemnew/show/P2482)，[【集训队互测2015】未来程序·改](http://uoj.ac/problem/98)
+经典例子：[[SDOI2010]猪国杀](https://www.luogu.org/problemnew/show/P2482)，[【集训队互测2015】未来程序·改](https://uoj.ac/problem/98)
 
 在一般的 OI 比赛中，思维难度应占主要部分。当然，如 THUWC / THUSC 的 Day 2+ 那样的工程题也有其存在的道理 —— 毕竟体验营的目的除了考察选手的算法设计能力，还有和大学学习对接的工程代码以及文档学习能力。但在一般的 OI 比赛中，考察更多的应当还是算法设计与思维能力。
 

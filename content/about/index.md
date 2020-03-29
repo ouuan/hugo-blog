@@ -9,7 +9,7 @@ OJ 账号：
 
 - [CF](https://codeforces.com/profile/ouuan)
 - [洛谷](https://www.luogu.com.cn/user/49742)
-- [UOJ](http://uoj.ac/user/profile/ouuan)
+- [UOJ](https://uoj.ac/user/profile/ouuan)
 - [LOJ](https://loj.ac/user/9706)
 
 ---

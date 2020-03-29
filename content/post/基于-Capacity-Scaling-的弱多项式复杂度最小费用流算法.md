@@ -595,7 +595,7 @@ capacity scaling 算法在初始时所有边容量均为 $0$（也就是说残�
 
 ## 代码
 
-[模板题](http://uoj.ac/problem/487)。
+[模板题](https://uoj.ac/problem/487)。
 
 {{% admonition note "代码" true %}}
 
