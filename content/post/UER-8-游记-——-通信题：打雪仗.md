@@ -8,7 +8,7 @@ aliases = ["/post/UER-8-游记-——-通信题：打雪仗", "/UER-8-游记-—
 +++
 
 
-[T1题目链接](http://uoj.ac/contest/47/problem/454)
+[T1题目链接](https://uoj.ac/contest/47/problem/454)
 
 大意：Alice 有一个长度为 $2n$ 的 $01$ 串 $s_{1..2n}$，Bob 有 $n$ 个下标 $p_{1..n}$，Alice 和 Bob 只能用 $01$ 通信，需要在每人各 $m$ 个 bit 内使 Bob 输出 $s_{p_1..p_n}$ .
 
@@ -247,4 +247,4 @@ int main()
 
 只取 $len=1325$ ，少枚举一维，可以优化到时间复杂度 $O(n)$ ；少传 $11$ 个 bit，可以优化到最大通信次数 $1336+1337$ 。证明从略。 
 
-[提交记录](http://uoj.ac/submission/309171)
+[提交记录](https://uoj.ac/submission/309171)
