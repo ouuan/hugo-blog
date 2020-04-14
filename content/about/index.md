@@ -14,6 +14,11 @@ OJ 账号：
 
 ---
 
+[![GitHub contributions](https://img.shields.io/badge/dynamic/json?url=https://github-contributions.now.sh/api/v1/ouuan&label=github&query=$.years.0.total&color=success&suffix=%20contributions@this%20year)](https://github.com/ouuan)
+[![CF contribution](https://img.shields.io/badge/dynamic/json?url=https://codeforces.com/api/user.info?handles=ouuan&label=codeforces&query=$.result.0.contribution&color=success&prefix=contribution%20)](https://codeforces.com/profile/ouuan)
+
+---
+
 在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 以获得更好的阅读体验。
 
 本博客中还有少量含有中文的 LaTeX 公式，所以推荐安装 MathJax 的 Unicode 字体 [Arial Unicode MS](/fonts/arial-unicode-ms_2.ttf) 。
