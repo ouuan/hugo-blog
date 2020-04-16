@@ -14,8 +14,10 @@ OJ 账号：
 
 ---
 
-[![GitHub contributions](https://img.shields.io/badge/dynamic/json?url=https://github-contributions.now.sh/api/v1/ouuan&label=github&query=$.years.0.total&color=success&suffix=%20contributions@this%20year)](https://github.com/ouuan)
-[![CF contribution](https://img.shields.io/badge/dynamic/json?url=https://codeforces.com/api/user.info?handles=ouuan&label=codeforces&query=$.result.0.contribution&color=success&prefix=contribution%20)](https://codeforces.com/profile/ouuan)
+Contribution(s):
+
+[![GitHub contributions](https://img.shields.io/badge/dynamic/json?url=https://github-contributions.now.sh/api/v1/ouuan&label=github&query=$.years.0.total&color=success&suffix=@this%20year)](https://github.com/ouuan)
+[![CF contribution](https://img.shields.io/badge/dynamic/json?url=https://codeforces.com/api/user.info?handles=ouuan&label=codeforces&query=$.result.0.contribution&color=success)](https://codeforces.com/profile/ouuan)
 
 ---
 
