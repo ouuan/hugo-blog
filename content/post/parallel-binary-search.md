@@ -464,3 +464,4 @@ int main()
 
 - [「POI2011」Meteors](https://loj.ac/problem/2169)
 - [矩阵乘法](https://www.luogu.com.cn/problem/P1527)
+- [「HNOI2016」网络](https://loj.ac/problem/2049)
