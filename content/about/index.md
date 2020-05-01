@@ -95,4 +95,8 @@ CSP-S2019 一等 $433$ (CN $rank$ $238$)
 
 THUWC2019-2 一等 invisible (一等里垫底)
 
+NOI Online Round 1 $180$ （垫底）
+
+NOI Online Round 2 $300$
+
 つづく
