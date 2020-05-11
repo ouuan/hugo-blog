@@ -102,6 +102,10 @@ hugo 还支持 [aliases](https://gohugo.io/content-management/urls/#aliases)，�
 
 于是我用了 ~~黑魔法~~ GitHub Actions 每天自动推送，详见 [配置文件](https://github.com/ouuan/hugo-blog/blob/master/.github/workflows/baidu-push.yml)。（需要先在 [百度搜索资源平台](https://ziyuan.baidu.com/) 上进行一些设置，TOKEN 可以在“链接提交”页面找到。）
 
+### Comments loading spinner
+
+见 [commit](https://github.com/ouuan/hugo-theme-even/commit/57d931297c7aa885cea90f5b5b5d6093f95b8a86)。
+
 ## Issues
 
 因为是用脚本批量改的，改完之后也没有一篇篇去检查，难免会有改错的地方以及一些死链，可以直接在评论区指出，多谢大家了。
