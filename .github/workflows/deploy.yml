@@ -16,17 +16,6 @@ jobs:
       - name: 'Fetch submodules'
         run: git submodule update --init
 
-      - name: Setup Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '13.x'
-
-      - name: Build theme
-        run: |
-          cd themes/even
-          yarn install
-          yarn run build
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
