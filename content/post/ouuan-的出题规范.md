@@ -117,7 +117,7 @@ UPD: 本文已于 [pr #1672](https://github.com/OI-wiki/OI-wiki/pull/1672) 经�
 
 ### 输入输出格式
 
-输入输出格式清晰**完整**即可，没有死板的要求，个人建议参照 CF 的题目来写输入输出格式，具体可以参考 [cf 出题人须知](/bad-round-与出题人的坚守/rules.jpg)。
+输入输出格式清晰**完整**即可，没有死板的要求，个人建议参照 CF 的题目来写输入输出格式，具体可以参考 [cf 出题人须知](/post_img/bad-round-与出题人的坚守/rules.jpg)。
 
 需要特别注意的是，如果输出中含有小数，请尽量使用 SPJ。如果无法使用 SPJ，请保证对精度的要求是有限的。
 
@@ -395,5 +395,5 @@ checker 一般使用 testlib.h 编写，[在 lemon 中也可以使用 testlib.h]
 
 1. [vfk《UOJ精神之源流》](http://vfleaking.blog.uoj.ac/blog/909)
 2. [王天懿《论偏题的危害》](/ouuan-的出题规范/7-王天懿-论偏题的危害.ppt)
-3. [cf 出题人须知](/bad-round-与出题人的坚守/rules.jpg)
+3. [cf 出题人须知](/post_img/bad-round-与出题人的坚守/rules.jpg)
 4. [vfk 博客](https://blog.csdn.net/VFleaKing/article/details/90521383)中的[CF出题人的自我修养](https://www.luogu.org/paste/sxvu97yz)
