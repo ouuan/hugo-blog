@@ -99,4 +99,6 @@ NOI Online Round 1 $180$ （垫底）
 
 NOI Online Round 2 $300$
 
+NOI Online Round 3 $200$ （垫底）
+
 つづく
