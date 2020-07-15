@@ -793,9 +793,9 @@ void add_edge(int u, int v, ll f, ll w)
 
 void spfa(int s)
 {
-    inq.assign(n + 2, false);
-    dis.assign(n + 2, INF);
-    pre.assign(n + 2, -1);
+    inq.assign(n + 1, false);
+    dis.assign(n + 1, INF);
+    pre.assign(n + 1, -1);
     dis[s] = 0;
     q.push(s);
 
@@ -853,7 +853,7 @@ int main()
 
     cin >> n >> m >> s >> t;
 
-    head.resize(n + 2, -1);
+    head.resize(n + 1, -1);
 
     for (int i = 1; i <= m; ++i)
     {
@@ -863,12 +863,6 @@ int main()
     }
 
     add_edge(t, s, LARGE, -LARGE);
-
-    for (int i = 1; i <= n; ++i)
-    {
-        add_edge(n + 1, i, 0, 0);
-        cap[to.size() - 2] = 1;
-    }
 
     for (int i = 40; i >= 0; --i)
     {
