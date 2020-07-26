@@ -1,7 +1,7 @@
 +++
 title = "BZOJ1009 [HNOI2008]GT考试（KMP/AC自动机，矩阵乘法）"
 categories = ["题解"]
-tags = ["字符串", "KMP", "AC自动机", "矩阵乘法"]
+tags = ["字符串", "KMP", "AC自动机", "矩阵"]
 date = "2019-05-03T19:07:11+08:00"
 description = ""
 aliases = ["/post/BZOJ1009-HNOI2008-GT考试（KMP-AC自动机，矩阵乘法）", "/BZOJ1009-HNOI2008-GT考试（KMP-AC自动机，矩阵乘法）"]
