@@ -101,4 +101,6 @@ NOI Online Round 2 $300$
 
 NOI Online Round 3 $200$ （垫底）
 
+HBSX2020 $295$ （HB $rank$ $7$）
+
 つづく
