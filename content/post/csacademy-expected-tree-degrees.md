@@ -80,6 +80,12 @@ $$
 
 所以，把 $A$ 作为 $x$ 带入生成函数中计算即可得到答案。
 
+### 求答案的精确值的另一种方法
+
+在 [评论区](https://csacademy.com/contest/round-10/task/expected-tree-degrees/discussion/) 看到的：$6(n-1) - 4(1 + \frac{1}{2} + \frac{1}{3} + \cdots + \frac{1}{n - 1})$。
+
+然而他没说怎么证，我也不太会证...
+
 ### 坑
 
 不用 `long double` 会被卡精度..原因大概是题目要求的是 **绝对** 误差不超过 $10^{-6}$... 怎么还有人出题要求绝对精度误差的 /fad
