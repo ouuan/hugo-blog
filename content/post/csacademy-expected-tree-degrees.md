@@ -1,5 +1,5 @@
 +++
-title = 'CS Academy Round #18 - Expected Tree Degrees'
+title = 'CS Academy Round #10 - Expected Tree Degrees'
 date = 2020-07-26T22:33:07+08:00
 draft = false
 categories = ['题解']
