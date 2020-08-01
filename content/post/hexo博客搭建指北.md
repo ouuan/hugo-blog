@@ -614,8 +614,8 @@ skip_render: README.md
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
         <meta http-equiv="Content-Security-Policy" content="connect-src 'self'">
         <title>404 Error | ouuan的博客</title>
-        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon32.ico">
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon16.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     </head>
     <body>
         <div>
