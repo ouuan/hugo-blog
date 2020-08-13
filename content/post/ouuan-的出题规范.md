@@ -394,6 +394,6 @@ checker 一般使用 testlib.h 编写，[在 lemon 中也可以使用 testlib.h]
 ## 参考资料
 
 1. [vfk《UOJ精神之源流》](http://vfleaking.blog.uoj.ac/blog/909)
-2. [王天懿《论偏题的危害》](/ouuan-的出题规范/7-王天懿-论偏题的危害.ppt)
+2. [王天懿《论偏题的危害》](/post_doc/7-王天懿-论偏题的危害.ppt)
 3. [cf 出题人须知](/post_img/bad-round-与出题人的坚守/rules.jpg)
 4. [vfk 博客](https://blog.csdn.net/VFleaKing/article/details/90521383)中的[CF出题人的自我修养](https://www.luogu.org/paste/sxvu97yz)
