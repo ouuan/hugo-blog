@@ -5,22 +5,6 @@ date = 2018-12-05T13:40:21+08:00
 
 ---
 
-OJ 账号：
-
-- [CF](https://codeforces.com/profile/ouuan)
-- [洛谷](https://www.luogu.com.cn/user/49742)
-- [UOJ](https://uoj.ac/user/profile/ouuan)
-- [LOJ](https://loj.ac/user/9706)
-
----
-
-Contribution(s):
-
-[![GitHub contributions](https://img.shields.io/badge/dynamic/json?url=https://github-contributions.now.sh/api/v1/ouuan&label=github&query=$.years.0.total&color=success&suffix=@this%20year)](https://github.com/ouuan)
-[![CF contribution](https://img.shields.io/badge/dynamic/json?url=https://codeforces.com/api/user.info?handles=ouuan&label=codeforces&query=$.result.0.contribution&color=success)](https://codeforces.com/profile/ouuan)
-
----
-
 在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 以获得更好的阅读体验。
 
 本博客中还有少量含有中文的 LaTeX 公式，所以推荐安装 MathJax 的 Unicode 字体 [Arial Unicode MS](/fonts/arial-unicode-ms_2.ttf) 。
@@ -53,15 +37,7 @@ GPG key: `863A0F9FA8127FA4`
 
 ---
 
-模拟赛结束后必须改题，没有可以推迟学的知识点，没有长的代码，要学会向他人请教，实在看不懂题解对着标程也要敲一遍，只要不复制就行。
-
----
-
-我不想和他人争抢保送的名额，但我现阶段的梦想，是提高国家集训队第 50 名的水平。
-
----
-
-ouuan，HB 现役 OIer。最喜欢的番剧/漫画是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，同时还是 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，[CL](https://www.bilibili.com/bangumi/media/md1177/)er，[海子姐](https://space.bilibili.com/434334701)单推，偶尔[做做视频](https://space.bilibili.com/11067182)，沉迷 [contribute](https://github.com/ouuan)，经常思考社会问题，却看不清自己的未来。
+ouuan，HB OIer。最喜欢的番剧/漫画是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，同时还是 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，[CL](https://www.bilibili.com/bangumi/media/md1177/)er，[海子姐](https://space.bilibili.com/434334701)单推，偶尔[做做视频](https://space.bilibili.com/11067182)，沉迷 [contribute](https://github.com/ouuan)，经常思考社会问题，却看不清自己的未来。
 
 初三：
 
