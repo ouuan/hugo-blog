@@ -84,3 +84,5 @@ NOI Online Round 3 $200$ （垫底）
 HBSX2020 $295$ （HB $rank$ $7$）
 
 WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
+
+NOI2020 <font color="silver">Ag</font> $322$ (CN $rank$ $153$)
