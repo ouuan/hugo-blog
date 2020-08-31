@@ -85,4 +85,6 @@ HBSX2020 $295$ （HB $rank$ $7$）
 
 WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
 
+APIO2020 <font color="silver">Ag</font> $119$ (CN $rank$ $171$)
+
 NOI2020 <font color="silver">Ag</font> $322$ (CN $rank$ $153$)
