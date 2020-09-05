@@ -25,19 +25,18 @@ A: utterance 的加载是一件玄学的事情，有时加载速度会非常慢�
 
 ---
 
-GPG key: `863A0F9FA8127FA4`
-
----
-
 头像不是我自己画的。
 
 ---
 
-现在 [百度 ouuan](https://www.baidu.com/s?wd=ouuan) 不需要加引号更不需要 `-(欧元)` 了！
+-   HB OIer，已退役。[![Codeforces Rating](https://cfrating.ihcr.top/?user=ouuan&style=flat-square)](https://codeforces.com/profile/ouuan)
+-   Arch Linux / KDE / yakuake / Oh My Zsh / VS Code / Firefox
+-   [GitHub](https://github.com/ouuan): [CP Editor](https://github.com/cpeditor/cpeditor), [OI Wiki](https://github.com/OI-wiki/OI-wiki) 等。
+-   最喜欢的番剧/漫画是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，同时还是 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，[CL](https://www.bilibili.com/bangumi/media/md1177/)er，[海子姐](https://space.bilibili.com/434334701)单推，偶尔[做做视频](https://space.bilibili.com/11067182)。
+-   [十六型人格测试](https://www.16personalities.com/ch/) 中的 [“逻辑学家” 人格](https://www.16personalities.com/ch/intp-人格)。
+-   GPG key: `863A0F9FA8127FA4`
 
 ---
-
-ouuan，HB OIer。最喜欢的番剧/漫画是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，同时还是 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，[CL](https://www.bilibili.com/bangumi/media/md1177/)er，[海子姐](https://space.bilibili.com/434334701)单推，偶尔[做做视频](https://space.bilibili.com/11067182)，沉迷 [contribute](https://github.com/ouuan)，经常思考社会问题，却看不清自己的未来。
 
 初三：
 
