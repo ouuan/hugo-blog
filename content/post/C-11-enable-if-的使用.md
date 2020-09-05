@@ -24,13 +24,13 @@ SFINAE 是 substitution failure is not an error 的缩写，即匹配失败不�
 2. 完全匹配 > 提升转换 > 标准转换 > 用户定义的转换。
 	- 完全匹配：
 		1. 值 ↔ 引用
-		2. [] → \*
-		3. type(argument-list) → (type \*)(argument-list)（函数指针）
-		4. type → const / volatile type
-		5. type \* → const type
-		6. type \* → volatile type \*
-	- 提升转换：char / shorts → int，float → double。
-	- 标准转换：int → char，long → double。
+		2. `[]` → `*`
+		3. `type(argument-list)` → `(type *)(argument-list)`（函数指针）
+		4. `type` → `const` / `volatile` `type`
+		5. `type *` → `const type *`
+		6. `type *` → `volatile type *`
+	- 提升转换：`char` / `short` → `int` / `float` → `double`。
+	- 标准转换：`int` → `char`，`long` → `double`。
 	- 用户定义的转换：类中的构造函数，类型转换函数等。
 3. 非模板函数优先于模板函数。
 4. 寻找“最佳匹配”，我自己也不是很了解，可以参见 《C++ Primer Plus（第五版）》8.5.4 或上网搜索。
