@@ -37,3 +37,7 @@
 <br/>
 <div id="search-results">请在上方输入关键词进行搜索</div>
 {{ end -}}
+
+{{ if ne .Site.Author.name "ouuan" }}
+{{ errorf "Please don't use ouuan/hugo-blog to create your blog. Use https://github.com/ouuan/hugo-blog-template instead." }}
+{{ end }}
