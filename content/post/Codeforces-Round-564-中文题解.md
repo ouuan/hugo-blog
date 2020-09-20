@@ -7,10 +7,9 @@ description = ""
 aliases = ["/post/Codeforces-Round-564-中文题解", "/Codeforces-Round-564-中文题解"]
 +++
 
-
 [台前幕后](/bad-round-与出题人的坚守)
 
-[contest on CF](https://codeforces.com/contest/1172)
+[比赛地址](https://codeforces.com/contests/1172,1173)
 
 <!--more-->
 
