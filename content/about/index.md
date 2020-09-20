@@ -58,7 +58,7 @@ HBSX2018 非正式选手 $180$（HB $rank$ $4$）
 
 [THUSC2019](/post/300iq奔北坡/#thusc-day--1) 三等 invisible（CN $rank$ $?$）
 
-Codeforces Round #564 出题人之一 & 主要组织者
+[Codeforces Round #564](/post/bad-round-与出题人的坚守) 出题人之一 & 主要组织者
 
 2019.6.13 CF Contribution 134（CN $rank$ $1$）
 
