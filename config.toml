@@ -59,8 +59,13 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "about"
   url = "/about/"
 [[menu.main]]
-  name = "搜索"
+  name = "排行"
   weight = 70
+  identifier = "ranking"
+  url = "/ranking/"
+[[menu.main]]
+  name = "搜索"
+  weight = 80
   identifier = "search"
   url = "/search/"
 

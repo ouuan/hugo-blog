@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -11,10 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0
-
-      - name: 'Fetch submodules'
-        run: git submodule update --init
+          submodules: recursive
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -24,7 +22,7 @@ jobs:
 
       - name: Build
         run: |
-          git config --global core.quotePath false
+          git config core.quotePath false
           hugo --minify
 
       - name: Check links
