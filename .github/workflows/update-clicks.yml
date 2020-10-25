@@ -30,12 +30,18 @@ jobs:
 
       - name: Commit
         run: |
-          git config user.email "ouuansteve@gmail.com"
-          git config user.name "Yufan You"
-          git commit -am "Update Clicks"
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git commit -am "chore: update clicks"
 
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.PERSONAL_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
+
+      - name: Trigger Deploy
+        uses: benc-uk/workflow-dispatch@v1.1
+        with:
+          workflow: Deploy
+          token: ${{ secrets.PERSONAL_TOKEN }}
