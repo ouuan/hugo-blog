@@ -2,7 +2,7 @@ name: Update Clicks
 
 on:
   schedule:
-    - cron: "*/3 * * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   update-clicks:
@@ -23,15 +23,15 @@ jobs:
           git config core.quotePath false
           hugo
 
-      - name: Install requests
-        run: pip install requests
+      - name: Install requirements
+        run: pip install requests pyaml
 
       - run: python scripts/UpdateClicks.py
 
       - name: Commit
         run: |
-          git config user.email "action@github.com"
-          git config user.name "GitHub Action"
+          git config user.email "ouuansteve@gmail.com"
+          git config user.name "Yufan You"
           git commit -am "Update Clicks"
 
       - name: Push changes
