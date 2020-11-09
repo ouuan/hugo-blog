@@ -3,7 +3,7 @@ title = 'C++ lambda 使用引用捕获局部变量的陷阱'
 date = 2020-07-08T14:08:38+08:00
 draft = false
 categories = ['技术']
-tags = ['C++']
+tags = ['cpp']
 +++
 
 C++ NB $\times$
