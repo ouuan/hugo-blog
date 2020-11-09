@@ -1,12 +1,16 @@
 {{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
 
 {{- define "content" }}
+{{ $pageForUrl := dict }}
+{{ range .Site.Pages }}
+{{ $pageForUrl = merge $pageForUrl (dict (urls.Parse .RelPermalink).Path .) }}
+{{ end }}
 {{ $pages := slice }}
 {{ $clicks := dict }}
 {{ range .Site.Data.clicks.pages }}
 {{ $tmp := .clicks }}
-{{ with $.Site.GetPage (strings.TrimSuffix "/" (urls.Parse .url).Path) }}
-{{ if and (eq .Type "post") (eq .Kind "page") }}
+{{ with index $pageForUrl (urls.Parse .url).Path }}
+{{ if eq .Type "post" }}
 {{ $pages = $pages | append . }}
 {{ $clicks = merge $clicks (dict .RelPermalink $tmp) }}
 {{ end }}
