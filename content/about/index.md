@@ -83,3 +83,7 @@ WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
 [APIO2020](/post/apio-noi-2020/#apio) <font color="silver">Ag</font> $119$ (CN $rank$ $171$)
 
 [NOI2020](/post/apio-noi-2020/#noi) <font color="silver">Ag</font> $322$ (CN $rank$ $153$)
+
+---
+
+<img style="display: block; margin: auto;" src="/images/wechat-sponsor.jpg" width="60%" id="wechat-sponsor"/>
