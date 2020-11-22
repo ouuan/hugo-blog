@@ -88,7 +88,9 @@ WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
 
 <img style="display: block; margin: auto;" src="/wechat-sponsor.jpg" width="60%" id="wechat-sponsor"/>
 
-你可以用 GPG key `863A0F9FA8127FA4` 和 GPG signature 来验证这个赞赏码：
+这个赞赏码的 SHA256 校验和为 `003dc4bb97e94296a35666aedfa599c5cdce81f762cad8647df48787548e6545`。
+
+你还可以用 GPG key `863A0F9FA8127FA4` 和 GPG signature 来验证这个赞赏码：
 
 1. 下载 <a href="/wechat-sponsor.jpg" download>赞赏码图片</a> 和 <a href="/wechat-sponsor.jpg.sig" download>签名文件</a>。
 2. 在以上两个文件都存在的目录下，运行 `gpg --verify wechat-sponsor.jpg.sig`。
