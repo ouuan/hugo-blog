@@ -88,7 +88,7 @@ WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
 
 <div id="wechat-sponsor">
 
-<img style="display: block; margin: auto;" src="/wechat-sponsor.jpg" width="60%"/>
+<img style="display: block; margin: auto;" src="/wechat-sponsor.jpg" width="50%"/>
 
 这个赞赏码的 SHA256 校验和为 `003dc4bb97e94296a35666aedfa599c5cdce81f762cad8647df48787548e6545`。
 
