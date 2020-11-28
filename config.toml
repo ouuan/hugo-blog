@@ -202,6 +202,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     a-email = "mailto:ouuansteve@gmail.com"
     b-github = "https://github.com/ouuan"
     c-bilibili = "https://space.bilibili.com/11067182"
+    d-twitter = "https://twitter.com/ouuan"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
