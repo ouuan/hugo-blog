@@ -3,6 +3,8 @@ title = "关于"
 date = 2018-12-05T13:40:21+08:00
 +++
 
+Hi! I'm ouuan from China. You may want to see me on [GitHub](https://gihtub.com/ouuan) if you are not a Chinese.
+
 ---
 
 在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 以获得更好的阅读体验。
@@ -86,15 +88,12 @@ WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
 
 ---
 
-<div id="wechat-sponsor">
+<div id="donate">
 
-<img style="display: block; margin: auto;" src="/wechat-sponsor.jpg" width="50%"/>
+<img style="display: block; margin: auto;" src="/wechat-donate.jpg" width="50%" title="（保存图片）微信扫一扫" alt="微信赞赏码"/>
 
-这个赞赏码的 SHA256 校验和为 `003dc4bb97e94296a35666aedfa599c5cdce81f762cad8647df48787548e6545`。
-
-你还可以用 GPG key `863A0F9FA8127FA4` 和 GPG signature 来验证这个赞赏码：
-
-1. 下载 <a href="/wechat-sponsor.jpg" download>赞赏码图片</a> 和 <a href="/wechat-sponsor.jpg.sig" download>签名文件</a>。
-2. 在以上两个文件都存在的目录下，运行 `gpg --verify wechat-sponsor.jpg.sig`。
+Integrity of <a href="/wechat-donate.jpg" download>this image<a>:
+-   [SHA256](https://emn178.github.io/online-tools/sha256_checksum.html) checksum: `003dc4bb97e94296a35666aedfa599c5cdce81f762cad8647df48787548e6545`
+-   <a href="/wechat-donate.jpg.sig" download>GPG signature</a> (`gpg --verify wechat-donate.jpg.sig`)
 
 </div>
