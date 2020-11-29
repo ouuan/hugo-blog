@@ -10,7 +10,7 @@
 {{ range .Site.Data.clicks.pages }}
 {{ $tmp := .clicks }}
 {{ with index $pageForUrl (urls.Parse .url).Path }}
-{{ if eq .Type "post" }}
+{{ if and (eq .Type "post") (eq .Kind "page") }}
 {{ $pages = $pages | append . }}
 {{ $clicks = merge $clicks (dict .RelPermalink $tmp) }}
 {{ end }}
