@@ -3,7 +3,7 @@ title = "关于"
 date = 2018-12-05T13:40:21+08:00
 +++
 
-Hi! I'm ouuan from China. You may want to see me on [GitHub](https://gihtub.com/ouuan) if you are not a Chinese.
+Hi! I'm ouuan from China. You may want to see me on [GitHub](https://github.com/ouuan) if you are not a Chinese.
 
 ---
 
