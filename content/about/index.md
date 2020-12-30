@@ -30,7 +30,7 @@ A: 因为这是题解不是题面，题意简述的目的是让人尽快知道�
 -   HB OIer，已退役。[![Codeforces Rating](https://cfrating.ihcr.top/?user=ouuan&style=flat-square)](https://codeforces.com/profile/ouuan)
 -   Arch Linux / KDE / yakuake / Oh My Zsh / VS Code / Firefox
 -   [GitHub](https://github.com/ouuan): [CP Editor](https://github.com/cpeditor/cpeditor), [OI Wiki](https://github.com/OI-wiki/OI-wiki) 等。
--   最喜欢的番剧/漫画是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，同时还是 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，[CL](https://www.bilibili.com/bangumi/media/md1177/)er，[海子姐](https://space.bilibili.com/434334701)单推，偶尔[做做视频](https://space.bilibili.com/11067182)。
+-   最喜欢的番剧/漫画是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，同时还是 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，[CL](https://www.bilibili.com/bangumi/media/md1177/)er，歌单前五名有两首[匹老版](https://zh.moegirl.org.cn/%E5%8C%B9%E8%AF%BA%E6%9B%B9P)的和三首[花譜](https://zh.moegirl.org.cn/%E8%8A%B1%E8%B0%B1)的，偶尔还会[做做视频](https://space.bilibili.com/11067182)。
 -   [十六型人格测试](https://www.16personalities.com/ch/) 中的 [“逻辑学家” 人格](https://www.16personalities.com/ch/intp-人格)。
 -   GPG key: `863A0F9FA8127FA4`
 
