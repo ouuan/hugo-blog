@@ -26,7 +26,7 @@ aliases = ["/post/CF235C-Cyclical-Quest（SAM）", "/CF235C-Cyclical-Quest（SAM
 
 # 简要做法
 
-对 $s$ 建 SAM，把 $x_i$ 旋转得到的每个字符串用 SAM 读入，就可以求答案了。（SAM 求子串出现次数是经典问题，可以参考[我的博客](https://ouuan.github.io/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA%EF%BC%88SAM%EF%BC%89%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#%E5%AD%90%E4%B8%B2%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0)）
+对 $s$ 建 SAM，把 $x_i$ 旋转得到的每个字符串用 SAM 读入，就可以求答案了。（SAM 求子串出现次数是经典问题，可以参考[我的博客](/post/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA%EF%BC%88SAM%EF%BC%89%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#%E5%AD%90%E4%B8%B2%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0)）
 
 分开读入每个 $x_i$ 旋转得到的字符串显然会超时，然而，SAM 读入字符串是支持删除首字符的：记录当前读入的长度 $l$ 以及所处状态 $u$，删除字符就把 $l$ 减一，若减一后 $l=len(parent(u))$，则转移到 $parent(u)$（把 $u$ 赋值为 $parent(t)$）。需要注意的是，如果读入一个字符的时候当前状态没有这个字符的出边，就需要在 $parent$ 树上向上跳，直到有这个字符的出边，同时更新 $l$ 。这样的话，删除字符前就要先判断 $l$ 与需要保留的字符串的长度的关系。具体细节可以参考代码及注释。
 

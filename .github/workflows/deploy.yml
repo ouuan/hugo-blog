@@ -35,7 +35,7 @@ jobs:
       - name: Fail on link errors
         run: exit ${{ steps.check-links.outputs.exit_code }}
 
-      - name: Deploy
+      - name: Deploy on GitHub
         uses: peaceiris/actions-gh-pages@v3
         with:
           external_repository: ouuan/ouuan.github.io
@@ -43,3 +43,26 @@ jobs:
           publish_dir: ./public
           publish_branch: master
           commit_message: ${{ github.event.head_commit.message }}
+
+      - name: Add ssh key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_RSA_PRIVATE_KEY }}
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
+
+      - name: Deploy on Gitee
+        run: |
+          sed -i "s/ouuan.github.io/ouuan.gitee.io/g" config.toml
+          hugo --minify
+          cd ..
+          git clone git@gitee.com:ouuan/ouuan.git
+          mv ouuan/.git .
+          rm -r ouuan
+          cp -r hugo-blog/public ouuan
+          mv .git ouuan
+          cd ouuan
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "${{ github.event.head_commit.message }}"
+          git push -u origin master

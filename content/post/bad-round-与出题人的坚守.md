@@ -27,7 +27,7 @@ aliases = ["/post/bad-round-与出题人的坚守", "/bad-round-与出题人的�
 
 看到这篇博客的时候，是去年（2018）十二月，手里正有刚刚想到的一个 idea，也就是 1C —— Pictures。
 
-当时我自己搞了个[简单的随机图片](https://ouuan.github.io/randpic/people/)，然后脑海里就冒出了这个 idea，虽然刚想出来的时候并不会做..
+当时我自己搞了个[简单的随机图片](/randpic/people/)，然后脑海里就冒出了这个 idea，虽然刚想出来的时候并不会做..
 
 然后就拿着去找 Sooke 了..
 

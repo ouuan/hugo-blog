@@ -14,7 +14,7 @@ aliases = ["/post/2019THUWC-WC冬眠记", "/2019THUWC-WC冬眠记"]
 
 # Day 0/-8
 
-Day -1 被归到[广二避寒记](https://ouuan.github.io/2018-2019%E5%86%AC-%E5%B9%BF%E4%BA%8C%E9%81%BF%E5%AF%92%E8%AE%B0/)去了..
+Day -1 被归到[广二避寒记](/post/2018-2019%E5%86%AC-%E5%B9%BF%E4%BA%8C%E9%81%BF%E5%AF%92%E8%AE%B0/)去了..
 
 上午在水群的时候吐槽 Kanon 结局，然后和 yfz 稍微聊了一下，又看了看萌百，的确あゆ就是和风子、面码差不多的[思念体](https://zh.moegirl.org/%E6%80%9D%E5%BF%B5%E4%BD%93)鸭，为什么我会觉得看不懂呢..大约不止是因为あゆ的存在？
 
