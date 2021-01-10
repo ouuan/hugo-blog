@@ -18,7 +18,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.80.0'
+          hugo-version: "0.80.0"
           extended: true
 
       - name: Build
@@ -66,3 +66,10 @@ jobs:
           git add -A
           git diff-index --quiet HEAD || git commit -m "${{ github.event.head_commit.message }}"
           git push -u origin master
+
+      - name: Rebuild on Gitee
+        uses: yanglbme/gitee-pages-action@608fe766b5f34094dafd551d22b35003ee2b77b2
+        with:
+          gitee-username: ouuan
+          gitee-password: ${{ secrets.GITEE_PASSWORD }}
+          gitee-repo: ouuan/ouuan
