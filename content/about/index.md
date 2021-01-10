@@ -7,6 +7,10 @@ Hi! I'm ouuan from China. You may want to see me on [GitHub](https://github.com/
 
 ---
 
+如果你是访问 [GitHub](https://ouuan.github.io) 较慢的国内用户，你可以尝试访问 [Gitee 镜像](https://ouuan.gitee.io)。
+
+---
+
 在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 以获得更好的阅读体验。
 
 本博客中还有少量含有中文的 LaTeX 公式，所以推荐安装 MathJax 的 Unicode 字体 [Arial Unicode MS](/fonts/arial-unicode-ms_2.ttf) 。
