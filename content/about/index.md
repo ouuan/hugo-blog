@@ -101,7 +101,7 @@ Integrity of <a href="/wechat-donate.jpg" download>this image<a>:
 -   <a href="/wechat-donate.jpg.sig" download>GPG signature</a> (`gpg --verify wechat-donate.jpg.sig`)
 
 Integrity of <a href="/wechat-donate.png" download>the 384x384 PNG<a>:
--   [SHA256](https://emn178.github.io/online-tools/sha256_checksum.html) checksum: `98c0bc4cd6e6dbc8b30f3bd35f0c65f629dd8d4ad9109c531d8b1ef7eae8e708`
+-   [SHA256](https://emn178.github.io/online-tools/sha256_checksum.html) checksum: `56291c808656e05b3beaf86d681af81b897aa4e911ed51fa70c3af541b9a712c`
 -   <a href="/wechat-donate.png.sig" download>GPG signature</a> (`gpg --verify wechat-donate.png.sig`)
 
 </div>
