@@ -65,7 +65,7 @@ jobs:
           git config user.name "GitHub Action"
           git add -A
           git diff-index --quiet HEAD || git commit -m "${{ github.event.head_commit.message }}"
-          git push -u origin master
+          git push -f
 
       - name: Rebuild on Gitee
         uses: yanglbme/gitee-pages-action@608fe766b5f34094dafd551d22b35003ee2b77b2
