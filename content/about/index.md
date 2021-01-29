@@ -96,6 +96,10 @@ WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
 
 <img style="display: block; margin: auto;" src="/wechat-donate.jpg" width="50%" title="（保存图片）微信扫一扫" alt="微信赞赏码"/>
 
+<p style="text-align: center;">
+微信扫一扫
+</p>
+
 Integrity of <a href="/wechat-donate.jpg" download>this image<a>:
 -   [SHA256](https://emn178.github.io/online-tools/sha256_checksum.html) checksum: `003dc4bb97e94296a35666aedfa599c5cdce81f762cad8647df48787548e6545`
 -   <a href="/wechat-donate.jpg.sig" download>GPG signature</a> (`gpg --verify wechat-donate.jpg.sig`)
