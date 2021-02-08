@@ -5,40 +5,27 @@ date = 2018-12-05T13:40:21+08:00
 
 Hi! I'm ouuan from China. You may want to see me on [GitHub](https://github.com/ouuan) if you are not a Chinese.
 
----
+## About This Blog
 
 如果你是访问 [GitHub](https://ouuan.github.io) 较慢的国内用户，你可以尝试访问 [Gitee 镜像](https://ouuan.gitee.io)。
-
----
 
 在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 以获得更好的阅读体验。
 
 本博客中还有少量含有中文的 LaTeX 公式，所以推荐安装 MathJax 的 Unicode 字体 [Arial Unicode MS](/fonts/arial-unicode-ms_2.ttf) 。
 
----
+本博客所有代码 [开源](https://github.com/ouuan/hugo-blog)。如果想要制作自己的博客：[制作模板](https://github.com/ouuan/hugo-blog-template)。
 
-Q: 博客里的 XX 功能是怎么做到的啊？
-
-A: 本博客所有代码 [开源](https://github.com/ouuan/hugo-blog)，并提供一个可以制作自己博客的 [模板](https://github.com/ouuan/hugo-blog-template)。请先自己找，还可以参考 [从 Hexo 到 Hugo](/post/from-hexo-to-hugo/#process)，找不到可以在评论区问。
-
-Q: 为什么大部分题解里的题意简述数据范围不全，甚至不太看得懂？
-
-A: 因为这是题解不是题面，题意简述的目的是让人尽快知道题目大意，而不是确保能够让人读懂、能够据此写出 AC 代码。如果看不懂/想知道详细的数据范围，可以去 OJ 上看。
-
----
-
-头像不是我自己画的。
-
----
+## About Me
 
 -   HB OIer，已退役。[![Codeforces Rating](https://cfrating.ihcr.top/?user=ouuan&style=flat-square)](https://codeforces.com/profile/ouuan)
 -   Arch Linux / KDE / yakuake / Oh My Zsh / VS Code / Firefox
 -   [GitHub](https://github.com/ouuan): [CP Editor](https://github.com/cpeditor/cpeditor), [OI Wiki](https://github.com/OI-wiki/OI-wiki) 等。
 -   最喜欢的番剧/漫画是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，同时还是 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，[CL](https://www.bilibili.com/bangumi/media/md1177/)er，[歌单](https://music.163.com/#/playlist?id=5091819419)前五名有两首[匹老板](https://zh.moegirl.org.cn/%E5%8C%B9%E8%AF%BA%E6%9B%B9P)的和三首[花譜](https://zh.moegirl.org.cn/%E8%8A%B1%E8%B0%B1)的，偶尔还会[做做视频](https://space.bilibili.com/11067182)。
 -   [十六型人格测试](https://www.16personalities.com/ch/) 中的 [“逻辑学家” 人格](https://www.16personalities.com/ch/intp-人格)。
+-   不擅言辞，不会交际。常有语出冒犯的时候。虽希望善良待人，但不会为人处事。([copied](https://blog.yuuta.moe/about/))
 -   GPG key: `863A0F9FA8127FA4`
 
----
+## OI Experience
 
 初三：
 
@@ -90,9 +77,7 @@ WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
 
 [NOI2020](/post/apio-noi-2020/#noi) <font color="silver">Ag</font> $322$ (CN $rank$ $153$)
 
----
-
-<div id="donate">
+## Donate
 
 <img style="display: block; margin: auto;" src="/wechat-donate.jpg" width="50%" title="（保存图片）微信扫一扫" alt="微信赞赏码"/>
 
@@ -107,5 +92,3 @@ Integrity of <a href="/wechat-donate.jpg" download>this image<a>:
 Integrity of <a href="/wechat-donate.png" download>the 384x384 PNG<a>:
 -   [SHA256](https://emn178.github.io/online-tools/sha256_checksum.html) checksum: `56291c808656e05b3beaf86d681af81b897aa4e911ed51fa70c3af541b9a712c`
 -   <a href="/wechat-donate.png.sig" download>GPG signature</a> (`gpg --verify wechat-donate.png.sig`)
-
-</div>
