@@ -23,7 +23,7 @@ Hi! I'm ouuan from China. You may want to see me on [GitHub](https://github.com/
 -   最喜欢的番剧/漫画是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，同时还是 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，[CL](https://www.bilibili.com/bangumi/media/md1177/)er，[歌单](https://music.163.com/#/playlist?id=5091819419)前五名有两首[匹老板](https://zh.moegirl.org.cn/%E5%8C%B9%E8%AF%BA%E6%9B%B9P)的和三首[花譜](https://zh.moegirl.org.cn/%E8%8A%B1%E8%B0%B1)的，偶尔还会[做做视频](https://space.bilibili.com/11067182)。
 -   [十六型人格测试](https://www.16personalities.com/ch/) 中的 [“逻辑学家” 人格](https://www.16personalities.com/ch/intp-人格)。
 -   不擅言辞，不会交际。常有语出冒犯的时候。虽希望善良待人，但不会为人处事。([copied](https://blog.yuuta.moe/about/))
--   GPG key: `863A0F9FA8127FA4`
+-   GPG key: [`863A0F9FA8127FA4`](/ouuan-gpg-pub.asc)
 
 ## OI Experience
 
