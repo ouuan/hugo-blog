@@ -31,6 +31,17 @@ jobs:
         with:
           skip_external: true
 
+      - name: Get commit message
+        id: commit-message
+        run: |
+          message="$(git show -q --pretty="%B
+
+          https://github.com/${{ github.repository }}/commit/%H")"
+          message="${message//'%'/'%25'}"
+          message="${message//$'\n'/'%0A'}"
+          message="${message//$'\r'/'%0D'}"
+          echo "::set-output name=message::$message"
+
       - name: Deploy on GitHub
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -38,7 +49,7 @@ jobs:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: ./public
           publish_branch: master
-          commit_message: ${{ github.event.head_commit.message }}
+          commit_message: ${{ steps.commit-message.outputs.message }}
 
       - name: Add ssh key
         uses: shimataro/ssh-key-action@v2
@@ -59,7 +70,7 @@ jobs:
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
           git add -A
-          git diff-index --quiet HEAD || git commit -m "${{ github.event.head_commit.message }}"
+          git diff-index --quiet HEAD || git commit -m "${{ steps.commit-message.outputs.message }}"
           git push -f
 
       - name: Rebuild on Gitee
