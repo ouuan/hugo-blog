@@ -3,7 +3,6 @@ title = '随笔合集'
 date = 2020-11-22T09:28:28+08:00
 draft = false
 categories = ['随笔']
-weight = 20
 +++
 
 一些不能单独成篇的随笔。

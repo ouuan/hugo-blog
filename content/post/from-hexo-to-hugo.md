@@ -4,7 +4,6 @@ date: 2020-02-06T23:07:17+08:00
 draft: false
 categories: ['技术']
 tags: ['博客']
-weight: 1
 ---
 
 该博客的前身是自 2018 年 12 月搭建的 hexo 博客，于 2020 年 2 月搬迁至 hugo。
