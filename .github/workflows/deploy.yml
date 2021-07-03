@@ -74,7 +74,7 @@ jobs:
           git push -f
 
       - name: Rebuild on Gitee
-        uses: yanglbme/gitee-pages-action@3bb86e685ca25d05177e4ec96c032acf4a5dd9ff
+        uses: yanglbme/gitee-pages-action@b16f22beebd9077be14004066eae97dca6c57828
         with:
           gitee-username: ouuan
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
