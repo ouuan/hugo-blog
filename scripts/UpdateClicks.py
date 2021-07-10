@@ -24,7 +24,7 @@ def getClicks(url):
 with open("public/sitemap.xml", "r") as sitemap:
     urls = re.compile(r'(?<=<loc>).+?(?=</loc>)').findall(sitemap.read())
     for url in urls:
-        clicks = getClicks(url) + getClicks(url.replace("https://ouuan.github.io", "https://ouuan.gitee.io"))
+        clicks = getClicks(url)
         print(clicks, url)
         data["pages"].append({"url": url, "clicks": clicks})
 

@@ -50,32 +50,3 @@ jobs:
           publish_dir: ./public
           publish_branch: master
           commit_message: ${{ steps.commit-message.outputs.message }}
-
-      - name: Add ssh key
-        uses: shimataro/ssh-key-action@v2
-        with:
-          key: ${{ secrets.SSH_RSA_PRIVATE_KEY }}
-          known_hosts: ${{ secrets.KNOWN_HOSTS }}
-
-      - name: Deploy on Gitee
-        run: |
-          hugo --minify -b https://ouuan.gitee.io
-          cd ..
-          git clone git@gitee.com:ouuan/ouuan.git
-          mv ouuan/.git .
-          rm -r ouuan
-          cp -r hugo-blog/public ouuan
-          mv .git ouuan
-          cd ouuan
-          git config user.email "action@github.com"
-          git config user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || git commit -m "${{ steps.commit-message.outputs.message }}"
-          git push -f
-
-      - name: Rebuild on Gitee
-        uses: yanglbme/gitee-pages-action@b16f22beebd9077be14004066eae97dca6c57828
-        with:
-          gitee-username: ouuan
-          gitee-password: ${{ secrets.GITEE_PASSWORD }}
-          gitee-repo: ouuan/ouuan
