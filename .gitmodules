@@ -4,3 +4,7 @@
 [submodule "themes/hugo-video"]
 	path = themes/hugo-video
 	url = https://github.com/martignoni/hugo-video.git
+[submodule "static/neuron-notes"]
+	path = static/neuron-notes
+	url = https://github.com/ouuan/neuron-notes
+	branch = html
