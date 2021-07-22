@@ -49,10 +49,10 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "categories"
   url = "/categories/"
 [[menu.main]]
-  name = "链接"
+  name = "笔记"
   weight = 50
-  identifier = "links"
-  url = "/links/"
+  identifier = "notes"
+  url = "/neuron-notes/"
 [[menu.main]]
   name = "关于"
   weight = 60

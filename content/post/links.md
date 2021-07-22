@@ -1,9 +1,9 @@
 +++
-title = "链接"
+title = "一些链接"
 date = 2020-02-06T22:53:11+08:00
 +++
 
-## 友情链接
+## 友情链接（OIer）
 
 - [EternalAlexander](https://EternalAlexander.github.io/)
 - [ustze](http://www.ustze.cn/)
