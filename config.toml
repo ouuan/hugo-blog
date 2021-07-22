@@ -49,11 +49,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "categories"
   url = "/categories/"
 [[menu.main]]
-  name = "笔记"
-  weight = 50
-  identifier = "notes"
-  url = "/neuron-notes/"
-[[menu.main]]
   name = "关于"
   weight = 60
   identifier = "about"
@@ -68,6 +63,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 80
   identifier = "search"
   url = "/search/"
+[[menu.main]]
+  name = "笔记"
+  weight = 90
+  identifier = "notes"
+  url = "/neuron-notes/"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
