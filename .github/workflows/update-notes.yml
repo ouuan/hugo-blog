@@ -15,8 +15,18 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Update Notes
+        id: update
         run: |
           git submodule update --init
+          log="$(git -C static/neuron-notes log --pretty='%s' @..origin/html)"
+          escape() {
+            local content="$1"
+            content="${content//'%'/'%25'}"
+            content="${content//$'\n'/'%0A'}"
+            content="${content//$'\r'/'%0D'}"
+            echo "$content"
+          }
+          echo "::set-output name=log::$(escape "$log")"
           git submodule update --remote static/neuron-notes
 
       - name: Commit
@@ -24,7 +34,9 @@ jobs:
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
-          git diff --quiet HEAD && committed=no || { git commit -am "chore: update notes" && committed=yes; }
+          git diff --quiet HEAD && committed=no || { git commit -am "chore: update notes
+
+          ${{ steps.update.outputs.log }}" && committed=yes; }
           echo "::set-output name=committed::$committed"
 
       - name: Push changes
