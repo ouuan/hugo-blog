@@ -1,47 +1,41 @@
-name: Update Clicks
+name: Update Notes
 
 on:
+  push:
+    branches:
+      - master
   workflow_dispatch:
   schedule:
-    - cron: "0 0 1 * *"
+    - cron: "33 22 * * *"
 
 jobs:
-  update-clicks:
+  update-notes:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: recursive
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.80.0'
-          extended: true
-
-      - name: Build
+      - name: Update Notes
         run: |
-          git config core.quotePath false
-          hugo
-
-      - name: Install requirements
-        run: pip install requests pyaml
-
-      - run: python scripts/UpdateClicks.py
+          git submodule update --init
+          git submodule update --remote static/neuron-notes
 
       - name: Commit
+        id: commit
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
-          git commit -am "chore: update clicks"
+          git diff --quiet HEAD && committed=no || { git commit -am "chore: update notes" && committed=yes; }
+          echo "::set-output name=committed::$committed"
 
       - name: Push changes
+        if: ${{ steps.commit.outputs.committed == 'yes' }}
         uses: ad-m/github-push-action@65392840bda2e774394d5cd38ca33e5918aec2d3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
 
       - name: Trigger Deploy
+        if: ${{ steps.commit.outputs.committed == 'yes' }}
         uses: benc-uk/workflow-dispatch@827565b908f387ffd483c84312273ae185c06c8a
         with:
           workflow: Deploy
