@@ -1,6 +1,6 @@
 newContentEditor = "nvim"
 baseURL = "https://ouuan.github.io"
-languageCode = "en"
+languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "ouuan的博客"
 preserveTaxonomyNames = true
