@@ -108,6 +108,7 @@ WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
 ```plain
 9aec9f59736b9bbeb695a2581c52f7ca93ebf38f71a3483d4899c6754d480ba6  alipay-donate-256.png
 86e0c49d5af0962f92a4324ce5291a94bb1c911e268a5afedadf4b05e9c678b6  alipay-donate.png
+e99f196a7d0b78996151002d487fbd5972368406ececb979603bc859711b99bd  wechat-and-alipay-donate-256.png
 aa29081f952abcc6062f92070e0b18110f0724b15f80b41a30106486ad1ec5d5  wechat-donate-256.png
 4e02b0c0653a563bc104903a80c33ccfdf619446c99f94ffc8d8b0ce1c1a33a1  wechat-donate.png
 ```
@@ -116,5 +117,6 @@ GPG 签名如下：
 
 -   [alipay-donate-256.png.sig](/alipay-donate-256.png.sig)
 -   [alipay-donate.png.sig](/alipay-donate.png.sig)
+-   [wechat-and-alipay-donate-256.png.sig](/wechat-and-alipay-donate-256.png.sig)
 -   [wechat-donate-256.png.sig](/wechat-donate-256.png.sig)
 -   [wechat-donate.png.sig](/wechat-donate.png.sig)
