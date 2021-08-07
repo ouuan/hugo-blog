@@ -77,16 +77,44 @@ WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
 
 ## Donate
 
-<img style="display: block; margin: auto;" src="/wechat-donate.jpg" width="50%" title="（保存图片）微信扫一扫" alt="微信赞赏码"/>
+<style>
+.donate {
+    display: flex;
+}
 
-<p style="text-align: center;">
-微信扫一扫
-</p>
+.donate figure {
+    flex: 1;
+}
 
-Integrity of <a href="/wechat-donate.jpg" download>this image<a>:
--   [SHA256](https://emn178.github.io/online-tools/sha256_checksum.html) checksum: `003dc4bb97e94296a35666aedfa599c5cdce81f762cad8647df48787548e6545`
--   <a href="/wechat-donate.jpg.sig" download>GPG signature</a> (`gpg --verify wechat-donate.jpg.sig`)
+.donate figcaption {
+    padding-top: 12px;
+    text-align: center;
+}
+</style>
 
-Integrity of <a href="/wechat-donate.png" download>the 384x384 PNG<a>:
--   [SHA256](https://emn178.github.io/online-tools/sha256_checksum.html) checksum: `56291c808656e05b3beaf86d681af81b897aa4e911ed51fa70c3af541b9a712c`
--   <a href="/wechat-donate.png.sig" download>GPG signature</a> (`gpg --verify wechat-donate.png.sig`)
+<div class="donate">
+<figure>
+<img src="/wechat-donate.png"/>
+<figcaption>微信打赏</figcaption>
+</figure>
+<figure>
+<img src="/alipay-donate.png"/>
+<figcaption>支付宝打赏</figcaption>
+</figure>
+</div>
+
+这些收款码的 sha256sum 如下：
+
+```plain
+9aec9f59736b9bbeb695a2581c52f7ca93ebf38f71a3483d4899c6754d480ba6  alipay-donate-256.png
+86e0c49d5af0962f92a4324ce5291a94bb1c911e268a5afedadf4b05e9c678b6  alipay-donate.png
+aa29081f952abcc6062f92070e0b18110f0724b15f80b41a30106486ad1ec5d5  wechat-donate-256.png
+4e02b0c0653a563bc104903a80c33ccfdf619446c99f94ffc8d8b0ce1c1a33a1  wechat-donate.png
+```
+
+GPG 签名如下：
+
+-   [alipay-donate-256.png.sig](/alipay-donate-256.png.sig)
+-   [alipay-donate.png.sig](/alipay-donate.png.sig)
+-   [wechat-donate-256.png.sig](/wechat-donate-256.png.sig)
+-   [wechat-donate.png.sig](/wechat-donate.png.sig)
