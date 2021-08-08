@@ -106,11 +106,11 @@ WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
 这些收款码的 sha256sum 如下：
 
 ```plain
-9aec9f59736b9bbeb695a2581c52f7ca93ebf38f71a3483d4899c6754d480ba6  alipay-donate-256.png
-86e0c49d5af0962f92a4324ce5291a94bb1c911e268a5afedadf4b05e9c678b6  alipay-donate.png
-e99f196a7d0b78996151002d487fbd5972368406ececb979603bc859711b99bd  wechat-and-alipay-donate-256.png
-aa29081f952abcc6062f92070e0b18110f0724b15f80b41a30106486ad1ec5d5  wechat-donate-256.png
-4e02b0c0653a563bc104903a80c33ccfdf619446c99f94ffc8d8b0ce1c1a33a1  wechat-donate.png
+d265ec20bb0d3e11dd7f448a53bc8f8d30c36f68bd3013e7d989bd7c66040da2  alipay-donate-256.png
+877c0b52ea6cddb99cb510da8cd02d099abf3f94874d6290fb7abd5f688bd092  alipay-donate.png
+4985a20bc1aabd3c48f6fc03617d35fa3e71888f10bb6199d8957a5ae484784e  wechat-and-alipay-donate-256.png
+026dd23365d40fba57bee9a894d56aac37b79c23e9ba80d06a8b34505a3ec780  wechat-donate-256.png
+75a49c81a772ba3cbe00e489b3542275053707e00f8c2884653fa3bb3642ace0  wechat-donate.png
 ```
 
 GPG 签名如下：
