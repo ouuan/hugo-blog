@@ -34,9 +34,12 @@ jobs:
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
-          git diff --quiet HEAD && committed=no || { git commit -am "chore: update notes
+          git diff --quiet HEAD && committed=no || { git commit -am "$(cat << HEREDOC_END
+          chore: update notes
 
-          ${{ steps.update.outputs.log }}" && committed=yes; }
+          ${{ steps.update.outputs.log }}
+          HEREDOC_END
+          )" && committed=yes; }
           echo "::set-output name=committed::$committed"
 
       - name: Push changes
