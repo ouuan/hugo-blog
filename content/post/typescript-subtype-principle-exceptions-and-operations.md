@@ -77,6 +77,7 @@ tags = ['TypeScript']
 -   在判定 A 函数类型是 B 函数类型的子类型时，如果 B 函数类型的返回值是 `void`，A 函数类型的返回值可以是任何类型。例如，`(number) => number` 是 `(number) => void` 的子类型，但不是 `(number) => undefined` 的子类型。这样的话，即使调用 callback 时不使用其返回值，也可以传入一个有返回值的函数作为 callback。
 -   如果一个函数没有显式指定返回值类型，并且没有 `return` 语句，其返回值的类型会被推导为 `void`。
 -   如果一个函数的返回值被显式指定为 `void`，这个函数可以没有 `return` 语句，也可以返回 `void`/`undefined`/`any`/`never` 类型的值。而当一个函数的返回值被显式指定为 `undefined` 时，这个函数必须有 `return` 语句，可以返回 `undefined`/`any`/`never` 类型的值，不能返回 `void` 类型的值。
+-   如果一个处于末尾的参数的类型在化简后依然在字面上包含 `void`（可以是 `void`/`number | void`，但不能是 `unknown`/`unknown | void`），调用时可以不传入这个参数；如果不包含 `void` 但包含 `undefined`，可以传入 `undefined` 但是不能不传这个参数。不知道是故意设计成这样的还是意外..反正这个特性没啥用，应该使用可选参数而非 `| void` 来表示可以不传入参数。
 
 ## `readonly`
 
