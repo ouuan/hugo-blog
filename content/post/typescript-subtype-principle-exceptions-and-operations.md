@@ -183,7 +183,7 @@ type assertion 的语法为 `expression as Type` 或 `<Type>expression`，即类
 
 `as const` 主要有两个作用：
 
-1.  在类型检查层面禁止修改对象的属性（但是这不会改变运行时的行为，并且仍然可以修改属性的属性）。
+1.  在类型检查层面禁止修改对象的属性（但是这不会改变运行时的行为）。
 2.  将原始类型自身或具有原始类型的属性的类型设为字面量而不是这个原始类型。例如，`const a = 'GET'` 不能作为 `(method : 'GET' | 'POST') => void` 的参数，而 `const a = 'GET' as const` 可以。
 
 例如：`{ a : 233 }` 的类型为 `{ a : number }`，而 `{ a : 233 } as const` 的类型为 `{ readonly a : 233 }`；`[2, 3] as const` 会得到类型为 `readonly [2, 3]` 的 tuple。
