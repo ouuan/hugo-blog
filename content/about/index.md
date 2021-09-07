@@ -15,6 +15,7 @@ Hi! I'm ouuan from China. You may want to see me on [GitHub](https://github.com/
 
 ## About Me
 
+-   freshman@THU
 -   HB OIer，已退役。[![](https://cfrating.ihcr.top/?user=ouuan&style=flat-square)](https://codeforces.com/profile/ouuan)
 -   Arch Linux / i3-wm / Oh My Zsh / NeoVim / Firefox
 -   [GitHub](https://github.com/ouuan): [CP Editor](https://github.com/cpeditor/cpeditor), [OI Wiki](https://github.com/OI-wiki/OI-wiki) 等。
