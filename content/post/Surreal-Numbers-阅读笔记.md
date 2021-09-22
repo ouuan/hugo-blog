@@ -155,7 +155,7 @@ $$x\le y\land y<z\Rightarrow x<z$$
 
 ### T7
 
-$$Y_L<x<Y_R\Rightarrow x\equiv(x_L\bigcup Y_L,x_R\bigcup Y_R)$$
+$$Y_L<x<Y_R\Rightarrow x\equiv(x_L\cup Y_L,x_R\cup Y_R)$$
 
 {{% admonition note "证明" true %}}
 

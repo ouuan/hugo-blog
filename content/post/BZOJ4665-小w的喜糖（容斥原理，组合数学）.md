@@ -24,13 +24,13 @@ aliases = ["/post/BZOJ4665-小w的喜糖（容斥原理，组合数学）", "/BZ
 
 考虑容斥，计 $g(S)​$ 为 $S​$ 这个集合内的所有位置都不变的方案数，$U​$ 为位置的全集（即 $1​$ ~ $n​$），$i​$ 这个数出现了 $cnt[i]​$ 次，答案即为 $\frac{n!}{\prod\limits_{i=1}^ncnt[i]!}+\sum\limits_{S\subseteq U,S\ne\varnothing}(-1)^{|S|}g(S)​$。
 
-计 $P_i$ 为 $i$ 这个数出现的位置集合，那么 $g(S)=\frac{(n-|S|)!\prod\limits_{i=1}^n\frac{cnt[i]!}{(cnt[i]-|P_i\bigcap S|)!}}{\prod\limits_{i=1}^ncnt[i]!}​$。
+计 $P_i$ 为 $i$ 这个数出现的位置集合，那么 $g(S)=\frac{(n-|S|)!\prod\limits_{i=1}^n\frac{cnt[i]!}{(cnt[i]-|P_i\cap S|)!}}{\prod\limits_{i=1}^ncnt[i]!}​$。
 
 暴力枚举子集肯定是过不了的，考虑如何优化。
 
-容斥原理的优化一般是将答案相同/结构相似的部分合在一起算，这题中，可以尝试将 $|S|$ 相同的集合合在一起算，问题就在于如何快速计算 $|S|$ 相同的所有 $\prod\limits_{i=1}^n\frac{cnt[i]!}{(cnt[i]-|P_i\bigcap S|)!}$ 之和。
+容斥原理的优化一般是将答案相同/结构相似的部分合在一起算，这题中，可以尝试将 $|S|$ 相同的集合合在一起算，问题就在于如何快速计算 $|S|$ 相同的所有 $\prod\limits_{i=1}^n\frac{cnt[i]!}{(cnt[i]-|P_i\cap S|)!}$ 之和。
 
-这个东西可以用 $dp$ 解决：设 $f(i,j)$ 为从值为 $1$ ~ $i$ 的所有数中选 $j$ 个数的所有不同方案的贡献之和，其中，一种选法的贡献就是将选的数作为 $S$ 的 $\prod\limits_{i=1}^n\frac{cnt[i]!}{(cnt[i]-|P_i\bigcap S|)!}$。转移时枚举值为 $i$ 的数选了 $k$ 个，那么 $f(i,j)=\sum\limits_{k=0}^{\min(j,cnt[i])}\frac{cnt[i]!}{(cnt[i]-k)!}\binom{cnt[i]}kf(i-1,j-k)$. 由于 $cnt[i]$ 之和为 $n$，$dp$ 复杂度是 $O(n^2)$。
+这个东西可以用 $dp$ 解决：设 $f(i,j)$ 为从值为 $1$ ~ $i$ 的所有数中选 $j$ 个数的所有不同方案的贡献之和，其中，一种选法的贡献就是将选的数作为 $S$ 的 $\prod\limits_{i=1}^n\frac{cnt[i]!}{(cnt[i]-|P_i\cap S|)!}$。转移时枚举值为 $i$ 的数选了 $k$ 个，那么 $f(i,j)=\sum\limits_{k=0}^{\min(j,cnt[i])}\frac{cnt[i]!}{(cnt[i]-k)!}\binom{cnt[i]}kf(i-1,j-k)$. 由于 $cnt[i]$ 之和为 $n$，$dp$ 复杂度是 $O(n^2)$。
 
 这样的话，最终的答案就是 $\frac{n!+\sum\limits_{i=1}^n(-1)^i(n-i)!f(n,i)}{\prod\limits_{i=1}^ncnt[i]!}$，实际上 $f(n,0)=1$，所以也可以化简为  $\frac{\sum\limits_{i=0}^n(-1)^i(n-i)!f(n,i)}{\prod\limits_{i=1}^ncnt[i]!}$.
 

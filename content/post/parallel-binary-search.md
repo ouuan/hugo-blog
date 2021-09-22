@@ -72,17 +72,17 @@ $$
 11&\qquad \textbf{for each }m\in M\\\\
 12&\qquad\qquad \textbf{if }m.index\le mid\\\\
 13&\qquad\qquad\qquad sum\gets sum+m.contribution\\\\
-14&\qquad\qquad\qquad \mathrm{LM}\gets \mathrm{LM}\bigcup\\{m\\}\\\\
+14&\qquad\qquad\qquad \mathrm{LM}\gets \mathrm{LM}\cup\\{m\\}\\\\
 15&\qquad\qquad \textbf{else}\\\\
-16&\qquad\qquad\qquad \mathrm{RM}\gets \mathrm{RM}\bigcup\\{m\\}\\\\
+16&\qquad\qquad\qquad \mathrm{RM}\gets \mathrm{RM}\cup\\{m\\}\\\\
 17&\qquad \mathrm{LQ}\gets\varnothing\\\\
 18&\qquad \mathrm{RQ}\gets\varnothing\\\\
 19&\qquad \textbf{for each }q\in Q\\\\
 20&\qquad\qquad \textbf{if }q.f(q.current+sum)=1\\\\
-21&\qquad\qquad\qquad \mathrm{LQ}\gets \mathrm{LQ}\bigcup \\{q\\}\\\\
+21&\qquad\qquad\qquad \mathrm{LQ}\gets \mathrm{LQ}\cup \\{q\\}\\\\
 22&\qquad\qquad \textbf{else}\\\\
 23&\qquad\qquad\qquad q.current\gets q.current+sum\\\\
-24&\qquad\qquad\qquad \mathrm{RQ}\gets \mathrm{RQ}\bigcup \\{q\\}\\\\
+24&\qquad\qquad\qquad \mathrm{RQ}\gets \mathrm{RQ}\cup \\{q\\}\\\\
 25&\qquad \text{PARALLEL_BINARY_SEARCH}(l, mid, \mathrm{LM}, \mathrm{LQ})\\\\
 26&\qquad \text{PARALLEL_BINARY_SEARCH}(mid\text{ 的后继}, r, \mathrm{RM}, \mathrm{RQ})\\\\
 27&\\\\
@@ -114,16 +114,16 @@ $$
 13&\qquad \textbf{for each }m\in M\\\\
 14&\qquad\qquad \textbf{if }m.index\le mid\\\\
 15&\qquad\qquad\qquad current\gets current+m.contribution\\\\
-16&\qquad\qquad\qquad \mathrm{LM}\gets \mathrm{LM}\bigcup\\{m\\}\\\\
+16&\qquad\qquad\qquad \mathrm{LM}\gets \mathrm{LM}\cup\\{m\\}\\\\
 17&\qquad\qquad \textbf{else}\\\\
-18&\qquad\qquad\qquad \mathrm{RM}\gets \mathrm{RM}\bigcup\\{m\\}\\\\
+18&\qquad\qquad\qquad \mathrm{RM}\gets \mathrm{RM}\cup\\{m\\}\\\\
 19&\qquad \mathrm{LQ}\gets\varnothing\\\\
 20&\qquad \mathrm{RQ}\gets\varnothing\\\\
 21&\qquad \textbf{for each }q\in Q\\\\
 22&\qquad\qquad \textbf{if }q.f(current)=1\\\\
-23&\qquad\qquad\qquad \mathrm{LQ}\gets \mathrm{LQ}\bigcup \\{q\\}\\\\
+23&\qquad\qquad\qquad \mathrm{LQ}\gets \mathrm{LQ}\cup \\{q\\}\\\\
 24&\qquad\qquad \textbf{else}\\\\
-25&\qquad\qquad\qquad \mathrm{RQ}\gets \mathrm{RQ}\bigcup \\{q\\}\\\\
+25&\qquad\qquad\qquad \mathrm{RQ}\gets \mathrm{RQ}\cup \\{q\\}\\\\
 26&\qquad \text{PARALLEL_BINARY_SEARCH}(mid\text{ 的后继}, r, \mathrm{RM}, \mathrm{RQ})\\\\
 27&\qquad current\gets old\\\\
 28&\qquad \text{PARALLEL_BINARY_SEARCH}(l, mid, \mathrm{LM}, \mathrm{LQ})\\\\

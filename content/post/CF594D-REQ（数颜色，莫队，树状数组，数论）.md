@@ -57,7 +57,7 @@ $$
 记 $pre(p, r)$ 表示质因数 $p$ 在 $[1, r]$ 中最后一次出现的位置，即：
 
 $$
-pre(p, r)=\max\left(\\{x|x\in\mathbb{N}, x\in[1, r], p|a_x\\}\bigcup\\{0\\}\right)
+pre(p, r)=\max\left(\\{x|x\in\mathbb{N}, x\in[1, r], p|a_x\\}\cup\\{0\\}\right)
 $$
 
 那么，$ans(l, r)=\left(\prod_{pre(p, r)\ge l}(p-1)/p\right)\cdot\left(\prod_{i=l}^ra_i\right)$ 。
