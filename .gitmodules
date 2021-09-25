@@ -12,3 +12,7 @@
 	path = static/debate-v2
 	url = https://github.com/ouuan/debate-v2
 	branch = html
+[submodule "static/truth-table-generator"]
+	path = static/truth-table-generator
+	url = https://github.com/ouuan/truth-table-generator
+	branch = dist
