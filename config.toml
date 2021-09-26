@@ -63,11 +63,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 80
   identifier = "search"
   url = "/search/"
-[[menu.main]]
-  name = "笔记"
-  weight = 90
-  identifier = "notes"
-  url = "/neuron-notes/"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
