@@ -2,3 +2,4 @@
 public/
 trash/
 tmp/
+.hugo_build.lock
