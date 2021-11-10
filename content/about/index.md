@@ -3,9 +3,7 @@ title = "关于"
 date = 2018-12-05T13:40:21+08:00
 +++
 
-Hi! I'm ouuan from China. You may want to see me on [GitHub](https://github.com/ouuan) if you are not a Chinese.
-
-## About This Blog
+## About this blog
 
 在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 以获得更好的阅读体验。
 
@@ -13,19 +11,43 @@ Hi! I'm ouuan from China. You may want to see me on [GitHub](https://github.com/
 
 本博客所有代码 [开源](https://github.com/ouuan/hugo-blog)。如果想要制作自己的博客：[制作模板](https://github.com/ouuan/hugo-blog-template)。
 
-## About Me
+## About me
 
--   freshman@THU
--   HB OIer，已退役。[![](https://cfrating.ihcr.top/?user=ouuan&style=flat-square)](https://codeforces.com/profile/ouuan)
--   Arch Linux / i3-wm / Oh My Zsh / NeoVim / Firefox
--   [GitHub](https://github.com/ouuan): [CP Editor](https://github.com/cpeditor/cpeditor), [OI Wiki](https://github.com/OI-wiki/OI-wiki) 等。
--   最喜欢的番剧/漫画是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，同时还是 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，[CL](https://www.bilibili.com/bangumi/media/md1177/)er，[歌单](https://music.163.com/#/playlist?id=5091819419)前五名有两首[匹老板](https://zh.moegirl.org.cn/%E5%8C%B9%E8%AF%BA%E6%9B%B9P)的和三首[花譜](https://zh.moegirl.org.cn/%E8%8A%B1%E8%B0%B1)的，偶尔还会[做做视频](https://space.bilibili.com/11067182)。
--   [十六型人格测试](https://www.16personalities.com/ch/) 中的 [“逻辑学家” 人格](https://www.16personalities.com/ch/intp-人格)。
+---
+
+-   曾经是一名现役的湖北 OIer。[![](https://cfrating.ihcr.top/?user=ouuan&style=flat-square)](https://codeforces.com/profile/ouuan)
+-   现在是一名 THU 的一字班新生（2021 级本科生），班上只有两位同学不（曾经）是 OIer。
+
+---
+
+-   从 2020 年初开始使用 Linux 作为主力操作系统，现在是 Arch Linux / i3wm / Neovim / nnn / yadm 等软件/项目的用户。
+-   GitHub: [ouuan](https://github.com/ouuan)，参与维护/开发了一些或不大或很小的项目，例如 [CP Editor](https://github.com/cpeditor/cpeditor), [OI Wiki](https://github.com/OI-wiki/OI-wiki), [pacwatch](https://github.com/ouuan/pacwatch) 等。
+
+---
+
+-   最喜欢的番剧/漫画是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，同时还是在 Final Live 的两个月前入坑的 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，也很喜欢 [Clannad](https://www.bilibili.com/bangumi/media/md1177/)。
+-   [《月がきれい》](https://www.bilibili.com/bangumi/media/md5989/)[《荒ぶる季節の乙女どもよ。》](https://www.bilibili.com/bangumi/media/md28221421/)[《風が強く吹いている》](https://www.bilibili.com/bangumi/media/md139352/)[《BEASTARS》](https://www.bilibili.com/bangumi/media/md28222618/)[《ピンポン》](https://www.bilibili.com/bangumi/media/md28221545/)[《SHIROBAKO》](https://www.bilibili.com/bangumi/media/md28228902/)这几部番也很棒。
+-   [《罗小黑战记》](https://www.bilibili.com/bangumi/media/md1733/) 是除了动画电影以及小时候看的动画片，唯一一部较为完整地看过的国漫。
+-   听的最多的是日语歌，目前[歌单](https://music.163.com/#/playlist?id=5091819419)的前六名有三首[匹老板](https://space.bilibili.com/203655966/)的歌和三首[花譜](https://space.bilibili.com/488970166/)的歌。
+-   在由[偶像宣言手书](https://www.bilibili.com/video/av78090377)入坑前很少看 v，现在依然是一名脆鲨。
+-   偶尔会[在 b 站上发一些视频](https://space.bilibili.com/11067182)。
+-   不喜欢 BV 号，所以写了个 [bv2av](https://greasyfork.org/zh-CN/scripts/398535-bv2av) 的 userscript。
+
+---
+
+-   在[十六型人格测试](https://www.16personalities.com/ch/)中稳定获得[“逻辑学家”人格 (INTP)](https://www.16personalities.com/ch/intp-人格) 的测试结果（有时会在 INTP-A 和 INTP-T 之间摇摆）。
 -   不擅言辞，不会交际。常有语出冒犯的时候。虽希望善良待人，但不会为人处事。([copied](http://web.archive.org/web/20210123202817/https://blog.yuuta.moe/about/))
+-   幻想着有一天用户为开源/[自由软件](https://www.gnu.org/philosophy/free-sw.html)付费能成为常态，就像观众为能免费看的直播打赏成为常态一样。
+
+---
+
 -   GPG key: [`863A0F9FA8127FA4`](https://github.com/ouuan.gpg)
 
-## OI Experience
+---
 
+## OI experience
+
+{{% fold "OI 相关的经历" %}}
 初三：
 
 NOIP2017 普及组一等 $230$（HB $rank$ $4$）
@@ -75,8 +97,11 @@ WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
 [APIO2020](/post/apio-noi-2020/#apio) <font color="silver">Ag</font> $119$ (CN $rank$ $171$)
 
 [NOI2020](/post/apio-noi-2020/#noi) <font color="silver">Ag</font> $322$ (CN $rank$ $153$)
+{{% /fold %}}
 
 ## Donate
+
+{{% fold "为我的项目/博客打赏" %}}
 
 <style>
 .donate {
@@ -121,3 +146,10 @@ GPG 签名如下：
 -   [wechat-and-alipay-donate-256.png.sig](/wechat-and-alipay-donate-256.png.sig)
 -   [wechat-donate-256.png.sig](/wechat-donate-256.png.sig)
 -   [wechat-donate.png.sig](/wechat-donate.png.sig)
+{{% /fold %}}
+
+<script>
+if (window.location.hash === '#donate') {
+    document.querySelector('#donate~details').setAttribute('open', '');
+}
+</script>
