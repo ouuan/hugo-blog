@@ -17,7 +17,6 @@ pygmentsCodefences = false
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 10                                              # 首页每页显示的文章数
 disqusShortname = ""      # disqus_shortname
-googleAnalytics = "UA-157787819-1"      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
@@ -117,6 +116,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   baiduAnalytics = ""      # Baidu Analytics
   baiduVerification = "zW0oque8IK"   # Baidu Verification
   googleVerification = "HAIwoMdm1A6XQ6Fp6KwAO7gpL5UKk5TOzvs9DuacYFI"  # Google Verification         # 谷歌
+  [params.matomoAnalytics]
+    url = 'matomo.ouuan.moe'
+    id = 1
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -196,13 +198,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     b-github = "https://github.com/ouuan"
     c-bilibili = "https://space.bilibili.com/11067182"
     d-twitter = "https://twitter.com/ouuan"
-
-# See https://gohugo.io/about/hugo-and-gdpr/
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true      # 12.214.31.144 -> 12.214.31.0
-  [privacy.youtube]
-    privacyEnhanced = true
 
 [markup.goldmark.renderer]
   unsafe = true

@@ -11,6 +11,21 @@ date = 2018-12-05T13:40:21+08:00
 
 本博客所有代码 [开源](https://github.com/ouuan/hugo-blog)。如果想要制作自己的博客：[制作模板](https://github.com/ouuan/hugo-blog-template)。
 
+{{% fold "关于本站使用的 Matomo Analytics" %}}
+
+本站使用 [Matomo Anaylitics](https://matomo.org/) 统计访客数据。这一工具 [以 GPL 3.0+ 开源](https://github.com/matomo-org/matomo)，采取了包括 IP 匿名化、不使用 Cookies 在内的措施来保护用户的隐私，只会收集匿名数据，不包含敏感的个人信息。可以在 [Matomo 官网](https://matomo.org/privacy/) 查看详情。
+
+本站使用 [ouuan 自行搭建的 Matomo 实例](https://matomo.ouuan.moe)，数据保存在 ouuan 购买的 VPS 上，只有 ouuan 本人能够访问这些数据。
+
+虽然您的隐私已经得到了足够的保护，您仍然可以在下方选择退出追踪以禁用任何数据收集：
+
+<iframe
+    style="width: 600px; max-width: 100%;"
+    src="https://matomo.ouuan.moe/index.php?module=CoreAdminHome&action=optOut&language=zh-cn"
+></iframe>
+
+{{% /fold %}}
+
 ## About me
 
 ---
