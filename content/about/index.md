@@ -3,6 +3,44 @@ title = "关于"
 date = 2018-12-05T13:40:21+08:00
 +++
 
+## About me
+
+你好，我是 ouuan，I'm from China. 下面是关于我的一些信息。
+
+---
+
+-   曾经是一名现役的湖北 OIer。[![](https://cfrating.ihcr.top/?user=ouuan&style=flat-square)](https://codeforces.com/profile/ouuan)
+-   现在是一名 THU 的一字班新生（2021 级本科生），班上只有两位同学不（曾经）是 OIer。
+
+---
+
+-   从 2020 年初开始使用 Linux 作为主力操作系统，现在是 [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) / [i3-wm](https://i3wm.org/) / [Neovim](https://neovim.io/) / [nnn](https://github.com/jarun/nnn) / [yadm](https://github.com/TheLocehiliosan/yadm) 等软件/项目的用户。
+-   GitHub: [ouuan](https://github.com/ouuan)，参与维护/开发了一些或不大或很小的项目，例如 [CP Editor](https://github.com/cpeditor/cpeditor), [OI Wiki](https://github.com/OI-wiki/OI-wiki), [pacwatch](https://github.com/ouuan/pacwatch) 等。
+
+---
+
+-   最喜欢的番剧（以及原作漫画）目前是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，曾经是 [Clannad](https://www.bilibili.com/bangumi/media/md1177/)。
+-   是一名在 [Final LoveLive!](https://zh.moegirl.org.cn/%CE%9C%27s_Final_LoveLive!_~%CE%BC%27sic_Forever~) 的两个月前入坑的 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，最近也有在看[星团](https://zh.moegirl.org.cn/LoveLive!Superstar!!)。
+-   [《月がきれい》](https://www.bilibili.com/bangumi/media/md5989/)[《荒ぶる季節の乙女どもよ。》](https://www.bilibili.com/bangumi/media/md28221421/)[《風が強く吹いている》](https://www.bilibili.com/bangumi/media/md139352/)[《BEASTARS》](https://www.bilibili.com/bangumi/media/md28222618/)[《ピンポン》](https://www.bilibili.com/bangumi/media/md28221545/)[《SHIROBAKO》](https://www.bilibili.com/bangumi/media/md28228902/)这几部番也很棒。
+-   [《罗小黑战记》](https://www.bilibili.com/bangumi/media/md1733/) 是除了动画电影以及小时候看的动画片，唯一一部较为完整地看过的国漫。
+-   听的最多的是日语歌，目前[歌单](https://music.163.com/#/playlist?id=5091819419)的前六名有三首[匹老板](https://space.bilibili.com/203655966/)的歌和三首[花譜](https://space.bilibili.com/488970166/)的歌。
+-   在由[偶像宣言手书](https://www.bilibili.com/video/av78090377)入坑前很少看 v，现在依然是一名脆鲨。B 站关注列表的 vtb 分组里除了[海子姐](https://space.bilibili.com/434334701)还有[轴伊](https://space.bilibili.com/61639371/)、[Hiiro](https://space.bilibili.com/508963009/)、[muri](https://space.bilibili.com/455916618/)、[光一](https://space.bilibili.com/434401868/)，以及一堆管人观众。
+-   偶尔会[在 b 站上发一些视频](https://space.bilibili.com/11067182)。
+-   不喜欢 BV 号，所以写了个 [bv2av](https://greasyfork.org/zh-CN/scripts/398535-bv2av) 的 userscript。
+
+---
+
+-   在[十六型人格测试](https://www.16personalities.com/ch/)中稳定获得[“逻辑学家”人格 (INTP)](https://www.16personalities.com/ch/intp-人格) 的测试结果（有时会在 INTP-A 和 INTP-T 之间摇摆）。
+-   不擅言辞，不会交际。常有语出冒犯的时候。虽希望善良待人，但不会为人处事。([copied](http://web.archive.org/web/20210123202817/https://blog.yuuta.moe/about/))
+-   我相信人与人之间的误解远多于分歧。
+-   幻想着有一天用户为开源/[自由软件](https://www.gnu.org/philosophy/free-sw.html)付费能成为常态，就像观众为能免费看的直播打赏成为常态一样。
+
+---
+
+-   GPG key: [`863A0F9FA8127FA4`](https://github.com/ouuan.gpg)
+
+---
+
 ## About this blog
 
 在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 以获得更好的阅读体验。
@@ -26,76 +64,42 @@ date = 2018-12-05T13:40:21+08:00
 
 {{% /fold %}}
 
-## About me
-
----
-
--   曾经是一名现役的湖北 OIer。[![](https://cfrating.ihcr.top/?user=ouuan&style=flat-square)](https://codeforces.com/profile/ouuan)
--   现在是一名 THU 的一字班新生（2021 级本科生），班上只有两位同学不（曾经）是 OIer。
-
----
-
--   从 2020 年初开始使用 Linux 作为主力操作系统，现在是 Arch Linux / i3wm / Neovim / nnn / yadm 等软件/项目的用户。
--   GitHub: [ouuan](https://github.com/ouuan)，参与维护/开发了一些或不大或很小的项目，例如 [CP Editor](https://github.com/cpeditor/cpeditor), [OI Wiki](https://github.com/OI-wiki/OI-wiki), [pacwatch](https://github.com/ouuan/pacwatch) 等。
-
----
-
--   最喜欢的番剧/漫画是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，同时还是在 Final Live 的两个月前入坑的 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，也很喜欢 [Clannad](https://www.bilibili.com/bangumi/media/md1177/)。
--   [《月がきれい》](https://www.bilibili.com/bangumi/media/md5989/)[《荒ぶる季節の乙女どもよ。》](https://www.bilibili.com/bangumi/media/md28221421/)[《風が強く吹いている》](https://www.bilibili.com/bangumi/media/md139352/)[《BEASTARS》](https://www.bilibili.com/bangumi/media/md28222618/)[《ピンポン》](https://www.bilibili.com/bangumi/media/md28221545/)[《SHIROBAKO》](https://www.bilibili.com/bangumi/media/md28228902/)这几部番也很棒。
--   [《罗小黑战记》](https://www.bilibili.com/bangumi/media/md1733/) 是除了动画电影以及小时候看的动画片，唯一一部较为完整地看过的国漫。
--   听的最多的是日语歌，目前[歌单](https://music.163.com/#/playlist?id=5091819419)的前六名有三首[匹老板](https://space.bilibili.com/203655966/)的歌和三首[花譜](https://space.bilibili.com/488970166/)的歌。
--   在由[偶像宣言手书](https://www.bilibili.com/video/av78090377)入坑前很少看 v，现在依然是一名脆鲨。
--   偶尔会[在 b 站上发一些视频](https://space.bilibili.com/11067182)。
--   不喜欢 BV 号，所以写了个 [bv2av](https://greasyfork.org/zh-CN/scripts/398535-bv2av) 的 userscript。
-
----
-
--   在[十六型人格测试](https://www.16personalities.com/ch/)中稳定获得[“逻辑学家”人格 (INTP)](https://www.16personalities.com/ch/intp-人格) 的测试结果（有时会在 INTP-A 和 INTP-T 之间摇摆）。
--   不擅言辞，不会交际。常有语出冒犯的时候。虽希望善良待人，但不会为人处事。([copied](http://web.archive.org/web/20210123202817/https://blog.yuuta.moe/about/))
--   幻想着有一天用户为开源/[自由软件](https://www.gnu.org/philosophy/free-sw.html)付费能成为常态，就像观众为能免费看的直播打赏成为常态一样。
-
----
-
--   GPG key: [`863A0F9FA8127FA4`](https://github.com/ouuan.gpg)
-
----
-
 ## OI experience
 
 {{% fold "OI 相关的经历" %}}
 初三：
 
-NOIP2017 普及组一等 $230$（HB $rank$ $4$）
+NOIP2017 普及组一等 $230$（HB rank $4$）
 
-NOIP2017 提高组二等 $160$（HB $rank$ $43$）
+NOIP2017 提高组二等 $160$（HB rank $43$）
 
-HBSX2018 非正式选手 $180$（HB $rank$ $4$）
+HBSX2018 非正式选手 $180$（HB rank $4$）
 
 高一：
 
-[NOIP2018](/post/noip2018提高组游记/) 提高组一等 $489$（CN $rank$ $329$）
+[NOIP2018](/post/noip2018提高组游记/) 提高组一等 $489$（CN rank $329$）
 
 [THUWC2019](/post/2019thuwc-wc冬眠记/#day-0-8) 没约 invisible（CN 垫底）
 
-[WC2019](/post/2019thuwc-wc冬眠记/#day--4) <font color="silver">Ag</font> $99$（CN $rank$ $119$）
+[WC2019](/post/2019thuwc-wc冬眠记/#day--4) <font color="silver">Ag</font> $99$（CN rank $119$）
 
-[HBSX2019](/post/十二省联考2019-游记-题解/) 被爆踩 $247$（HB $rank$ $4$）
+[HBSX2019](/post/十二省联考2019-游记-题解/) 被爆踩 $247$（HB rank $4$）
 
-[CTS2019](/post/300iq奔北坡/#arrival) <font color = "silver">Ag</font> $156$（CN $rank$ $126$）
+[CTS2019](/post/300iq奔北坡/#arrival) <font color = "silver">Ag</font> $156$（CN rank $126$）
 
-[APIO2019](/post/300iq奔北坡/#apio-讲课-day-1) <font color = "#B87333">Cu</font> $113$（CN $rank$ $256$）
+[APIO2019](/post/300iq奔北坡/#apio-讲课-day-1) <font color = "#B87333">Cu</font> $113$（CN rank $256$）
 
-[THUSC2019](/post/300iq奔北坡/#thusc-day--1) 三等 invisible（CN $rank$ $?$）
+[THUSC2019](/post/300iq奔北坡/#thusc-day--1) 三等 invisible（CN rank $?$）
 
 [Codeforces Round #564](/post/bad-round-与出题人的坚守) 出题人之一 & 主要组织者
 
-2019.6.13 CF Contribution 134（CN $rank$ $1$）
+2019.6.13 CF Contribution 134（CN rank $1$）
 
-[NOI2019](/post/nio9102-落雨大/) <font color = "#B87333">Cu</font> $376$（CN $rank$ $178$）
+[NOI2019](/post/nio9102-落雨大/) <font color = "#B87333">Cu</font> $376$（CN rank $178$）
 
 高二：
 
-[CSP-S2019](/post/悬崖边的踟蹰-csp-s-2019/) 一等 $433$ (CN $rank$ $238$)
+[CSP-S2019](/post/悬崖边的踟蹰-csp-s-2019/) 一等 $433$ (CN rank $238$)
 
 [THUWC2019-2](/post/thuwc2019-第二轮冬眠/) 一等 invisible (一等里垫底)
 
@@ -105,13 +109,13 @@ NOI Online Round 2 $300$
 
 NOI Online Round 3 $200$ （垫底）
 
-[HBSX2020](/post/hbsx2020/) $295$ （HB $rank$ $7$）
+[HBSX2020](/post/hbsx2020/) $295$ （HB rank $7$）
 
-WC2020 <font color="silver">Ag</font> $75$ (CN $rank$ $130$)
+WC2020 <font color="silver">Ag</font> $75$ (CN rank $130$)
 
-[APIO2020](/post/apio-noi-2020/#apio) <font color="silver">Ag</font> $119$ (CN $rank$ $171$)
+[APIO2020](/post/apio-noi-2020/#apio) <font color="silver">Ag</font> $119$ (CN rank $171$)
 
-[NOI2020](/post/apio-noi-2020/#noi) <font color="silver">Ag</font> $322$ (CN $rank$ $153$)
+[NOI2020](/post/apio-noi-2020/#noi) <font color="silver">Ag</font> $322$ (CN rank $153$)
 {{% /fold %}}
 
 ## Donate
