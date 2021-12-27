@@ -33,6 +33,8 @@ date = 2018-12-05T13:40:21+08:00
 -   在[十六型人格测试](https://www.16personalities.com/ch/)中稳定获得[“逻辑学家”人格 (INTP)](https://www.16personalities.com/ch/intp-人格) 的测试结果（有时会在 INTP-A 和 INTP-T 之间摇摆）。
 -   不擅言辞，不会交际。常有语出冒犯的时候。虽希望善良待人，但不会为人处事。([copied](http://web.archive.org/web/20210123202817/https://blog.yuuta.moe/about/))
 -   我相信人与人之间的误解远多于分歧。
+-   「没有人是怪物」「理解不等于赞同」  
+    —— 《〈和陌生人说话〉：越汹涌，越平静》，Vista 看天下 2021.12.18
 -   幻想着有一天用户为开源/[自由软件](https://www.gnu.org/philosophy/free-sw.html)付费能成为常态，就像观众为能免费看的直播打赏成为常态一样。
 
 ---
