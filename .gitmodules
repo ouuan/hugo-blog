@@ -12,3 +12,7 @@
 	path = static/truth-table-generator
 	url = https://github.com/ouuan/truth-table-generator
 	branch = dist
+[submodule "static/luogu-motaki-plan-preview"]
+	path = static/luogu-motaki-plan-preview
+	url = https://github.com/ouuan/luogu-motaki-plan-preview
+	branch = dist
