@@ -20,12 +20,11 @@ date = 2018-12-05T13:40:21+08:00
 ---
 
 -   最喜欢的番剧（以及原作漫画）目前是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，曾经是 [Clannad](https://www.bilibili.com/bangumi/media/md1177/)。
--   是一名在 [Final LoveLive!](https://zh.moegirl.org.cn/%CE%9C%27s_Final_LoveLive!_~%CE%BC%27sic_Forever~) 的两个月前入坑的 [μ's](https://zh.moegirl.org/zh-hans/LoveLive!)er，最近也有在看[星团](https://zh.moegirl.org.cn/LoveLive!Superstar!!)。
+-   在 [μ's Final LoveLive!](https://zh.moegirl.org.cn/μ's_Final_LoveLive!_~μ'sic_Forever~) 的两个月前被同学安利由动画入坑 [LL](https://zh.moegirl.org.cn/LoveLive!)（是入宅番），但是 μ's 的广播生放 live 之类都看的很少，[水](https://zh.moegirl.org.cn/LoveLive!Sunshine!!)和[虹](https://zh.moegirl.org.cn/LoveLive!虹咲学园学园偶像同好会)也没怎么关注，直到开始看[星团](https://zh.moegirl.org.cn/LoveLive!Superstar!!)才真的像是一个拉拉人。
 -   [《月がきれい》](https://www.bilibili.com/bangumi/media/md5989/)[《荒ぶる季節の乙女どもよ。》](https://www.bilibili.com/bangumi/media/md28221421/)[《風が強く吹いている》](https://www.bilibili.com/bangumi/media/md139352/)[《BEASTARS》](https://www.bilibili.com/bangumi/media/md28222618/)[《ピンポン》](https://www.bilibili.com/bangumi/media/md28221545/)[《SHIROBAKO》](https://www.bilibili.com/bangumi/media/md28228902/)这几部番也很棒。
 -   [《罗小黑战记》](https://www.bilibili.com/bangumi/media/md1733/) 是除了动画电影以及小时候看的动画片，唯一一部较为完整地看过的国漫。
 -   听的最多的是日语歌，目前[歌单](https://music.163.com/#/playlist?id=5091819419)的前六名有三首[匹老板](https://space.bilibili.com/203655966/)的歌和三首[花譜](https://space.bilibili.com/488970166/)的歌。
--   在由[偶像宣言手书](https://www.bilibili.com/video/av78090377)入坑前很少看 v，现在依然是一名脆鲨。B 站关注列表的 vtb 分组里除了[海子姐](https://space.bilibili.com/434334701)还有[轴伊](https://space.bilibili.com/61639371/)、[Hiiro](https://space.bilibili.com/508963009/)、[muri](https://space.bilibili.com/455916618/)、[光一](https://space.bilibili.com/434401868/)，以及一堆管人观众。
--   偶尔会[在 b 站上发一些视频](https://space.bilibili.com/11067182)。
+-   偶尔（~~曾经~~）会[在 b 站上发一些视频](https://space.bilibili.com/11067182)。感觉除了 [av65924361](https://www.bilibili.com/video/av65924361) 和 [av79877987](https://www.bilibili.com/video/av79877987) 基本上都是划水或者黑历史（
 -   不喜欢 BV 号，所以写了个 [bv2av](https://greasyfork.org/zh-CN/scripts/398535-bv2av) 的 userscript。
 
 ---
