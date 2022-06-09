@@ -51,6 +51,8 @@ date = 2018-12-05T13:40:21+08:00
 
 （其实我想搭个新博客，以至于有 idea 都不想在这个博客写新博文，但新博客到底什么时候会有呢x）
 
+由于 jsDelivr 在国内变得不可用，换成了 BootCDN，但貌似可能也不太好用（根据不同地区、网络而不同）。
+
 在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 以获得更好的阅读体验。
 
 本博客中还有少量含有中文的 LaTeX 公式，所以推荐安装 MathJax 的 Unicode 字体 [Arial Unicode MS](/fonts/arial-unicode-ms_2.ttf) 。
