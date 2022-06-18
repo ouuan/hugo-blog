@@ -49,7 +49,7 @@ date = 2018-12-05T13:40:21+08:00
 -   在 [<span class="muse">μ's Final LoveLive!</span>](https://zh.moegirl.org.cn/μ's_Final_LoveLive!_~μ'sic_Forever~) 的两个月前被同学安利由动画入坑 [<span class="muse">LL</span>](https://zh.moegirl.org.cn/LoveLive!)，这也是我的入宅番。之后有玩过一段时间 [sif](https://zh.moegirl.org.cn/zh-cn/LoveLive!学园偶像祭)，但缪的三次元活动（广播生放 live 之类）都看的很少，后面也逐渐淡坑，直到星团。
 -   [<span class="liella">星</span>](https://zh.moegirl.org.cn/LoveLive!Superstar!!) 是在一期动画结束后开始看的；[<span class="nijigasaki">虹</span>](https://zh.moegirl.org.cn/LoveLive!虹咲学园学园偶像同好会) 是二期动画放送中开始看的；[<span class="aqours">水</span>](https://zh.moegirl.org.cn/LoveLive!Sunshine!!) 没太关注，动画只追到一期的一半，但开始看虹星后也多少看了一点切片。主推大概是 [<span class="kanon">sayu</span>/<span class="kanon">合</span>](https://zh.moegirl.org.cn/伊达小百合)[<span class="kuku">鲤</span>](https://zh.moegirl.org.cn/Liyuu)/[<span class="mia">秀酱</span>](https://zh.moegirl.org.cn/内田秀)。
 -   [《罗小黑战记》](https://www.bilibili.com/bangumi/media/md1733/) 是除了动画电影以及小时候看的动画片，唯一一部较为完整地看过的国漫。
--   有在用 [bangumi](https://bangumi.tv/user/582767)，但是用的较晚，所以（早期的）时间胶囊会比较乱，早期看的番的评分大概也比较乱来（说的好像最近看的番评分就有多正确一样x）
+-   有在用 [bangumi](https://bangumi.tv/user/ouuan)，但是用的较晚，所以（早期的）时间胶囊会比较乱，早期看的番的评分大概也比较乱来（说的好像最近看的番评分就有多正确一样x）
 -   听的最多的是日语歌，目前[歌单](https://music.163.com/#/playlist?id=5091819419)的前六名有三首[匹老板](https://space.bilibili.com/203655966/)的歌和三首[花譜](https://space.bilibili.com/488970166/)的歌。  
     P.S. 感觉找不到一个满意的歌单管理解决方案，以至于懒得更新歌单。想以后自己写一个。
 -   是现役 [轴芯](https://zh.moegirl.org.cn/轴伊) 以及老年脆鲨，大概还是老年 [调查员](https://zh.moegirl.org.cn/无理)，偶尔会浅看一下的 vtb 还有 [Hiiro](https://zh.moegirl.org.cn/Hiiro)、[sasaki](https://zh.moegirl.org.cn/笹木咲)、~~[きにゃこちゃん](https://zh.moegirl.org.cn/法元明菜)~~，当然还有别的。只不过看 v 看的多的还是 20 年，现在看得少了。
