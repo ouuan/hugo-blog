@@ -58,11 +58,12 @@ date = 2018-12-05T13:40:21+08:00
 
 ---
 
--   在[十六型人格测试](https://www.16personalities.com/ch/)中稳定获得[“逻辑学家”人格 (INTP)](https://www.16personalities.com/ch/intp-人格) 的测试结果（有时会在 INTP-A 和 INTP-T 之间摇摆）。
+-   在[十六型人格测试](https://www.16personalities.com/ch/)中稳定获得[“逻辑学家”人格 (INTP)](https://www.16personalities.com/ch/intp-人格) 的测试结果（有时会在 INTP-A 和 INTP-T 之间摇摆）。但由于 MBTI 越来越火，而且经常受到非理性看待、过度解读，其实是有点不想公开结果的。
 -   不擅言辞，不会交际。常有语出冒犯的时候。虽希望善良待人，但不会为人处事。([copied](http://web.archive.org/web/20210123202817/https://blog.yuuta.moe/about/))
 -   我相信人与人之间的误解远多于分歧。
 -   「没有人是怪物」「理解不等于赞同」  
     —— 《〈和陌生人说话〉：越汹涌，越平静》，Vista 看天下 2021.12.18
+-   高三的时候同学带了很多《Vista 看天下》到班上供大家借阅，就利用晚自习和考前“复习”看了很多；高中毕业后自己订阅了电子版的看天下，现在也一直在看，可以说是除了社交媒体外的主要信息来源。
 -   幻想有一天用户为开源/[自由软件](https://www.gnu.org/philosophy/free-sw.html)付费能成为常态，就像观众为能免费看的直播打赏成为常态一样。现在越来越觉得这只能是个幻想，而且或许会有比用户不愿付费更大的阻碍。
 
 ---
