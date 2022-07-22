@@ -3,86 +3,11 @@ title = "关于"
 date = 2018-12-05T13:40:21+08:00
 +++
 
-## About me
-
-你好，我是 ouuan，I'm from China. 下面是关于我的一些信息。
-
----
-
--   曾经是一名现役的湖北 OIer。[![](https://cfrating.ihcr.top/?user=ouuan&style=flat-square)](https://codeforces.com/profile/ouuan)
--   现在是位于 THU 的一名本科生，班上只有两位同学不（曾经）是 OIer ~~，但学的都是数学~~。
-
----
-
--   从 2020 年初开始使用 Linux 作为主力操作系统，现在是 [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) / [i3-wm](https://i3wm.org/) / [Neovim](https://neovim.io/) / [nnn](https://github.com/jarun/nnn) / [yadm](https://github.com/TheLocehiliosan/yadm) 等软件/项目的用户。
--   GitHub: [ouuan](https://github.com/ouuan)，参与维护/开发了一些或不大或很小的项目，例如 [CP Editor](https://github.com/cpeditor/cpeditor), [OI Wiki](https://github.com/OI-wiki/OI-wiki), [pacwatch](https://github.com/ouuan/pacwatch) 等。
--   写了一个代码语法树猜谜游戏 [Codle](https://codle.ouuan.moe/)。
-
----
-
-<style>
-.muse {
-    color: #E50080 !important;
-}
-.aqours {
-    color: #19B1F6 !important;
-}
-.nijigasaki {
-    color: #F8B656 !important;
-}
-.liella {
-    color: #DA57D8 !important;
-}
-.kanon {
-    color: #FF7F27 !important;
-}
-.kuku {
-    color: #A0FFF9 !important;
-}
-.mia {
-    color: #A9A898 !important;
-}
-</style>
-
--   最喜欢的番剧（以及原作漫画）目前是 [3月のライオン](https://www.bilibili.com/bangumi/media/md5523/)，曾经是 [Clannad](https://www.bilibili.com/bangumi/media/md1177/)。
--   [《月がきれい》](https://www.bilibili.com/bangumi/media/md5989/)[《荒ぶる季節の乙女どもよ。》](https://www.bilibili.com/bangumi/media/md28221421/)[《風が強く吹いている》](https://www.bilibili.com/bangumi/media/md139352/)[《BEASTARS》](https://www.bilibili.com/bangumi/media/md28222618/)[《ピンポン》](https://www.bilibili.com/bangumi/media/md28221545/)[《SHIROBAKO》](https://www.bilibili.com/bangumi/media/md28228902/)这几部番也很棒。
--   在 [<span class="muse">μ's Final LoveLive!</span>](https://zh.moegirl.org.cn/μ's_Final_LoveLive!_~μ'sic_Forever~) 的两个月前被同学安利由动画入坑 [<span class="muse">LL</span>](https://zh.moegirl.org.cn/LoveLive!)，这也是我的入宅番。之后有玩过一段时间 [sif](https://zh.moegirl.org.cn/zh-cn/LoveLive!学园偶像祭)，但缪的三次元活动（广播生放 live 之类）都看的很少，后面也逐渐淡坑，直到星团。
--   [<span class="liella">星</span>](https://zh.moegirl.org.cn/LoveLive!Superstar!!) 是在一期动画结束后开始看的；[<span class="nijigasaki">虹</span>](https://zh.moegirl.org.cn/LoveLive!虹咲学园学园偶像同好会) 是二期动画放送中开始看的；[<span class="aqours">水</span>](https://zh.moegirl.org.cn/LoveLive!Sunshine!!) 没太关注，动画只追到一期的一半，但开始看虹星后也多少看了一点切片。主推大概是 [<span class="kanon">sayu</span>/<span class="kanon">合</span>](https://zh.moegirl.org.cn/伊达小百合)[<span class="kuku">鲤</span>](https://zh.moegirl.org.cn/Liyuu)/[<span class="mia">秀酱</span>](https://zh.moegirl.org.cn/内田秀)。
--   [《罗小黑战记》](https://www.bilibili.com/bangumi/media/md1733/) 是除了动画电影以及小时候看的动画片，唯一一部较为完整地看过的国漫。
--   有在用 [bangumi](https://bangumi.tv/user/ouuan)，但是用的较晚，所以（早期的）时间胶囊会比较乱，早期看的番的评分大概也比较乱来（说的好像最近看的番评分就有多正确一样x）
--   听的最多的是日语歌，目前[歌单](https://music.163.com/#/playlist?id=5091819419)的前六名有三首[匹老板](https://space.bilibili.com/203655966/)的歌和三首[花譜](https://space.bilibili.com/488970166/)的歌。  
-    P.S. 感觉找不到一个满意的歌单管理解决方案，以至于懒得更新歌单。想以后自己写一个。
--   是现役 [轴芯](https://zh.moegirl.org.cn/轴伊) 以及老年脆鲨，大概还是老年 [调查员](https://zh.moegirl.org.cn/无理)，偶尔会浅看一下的 vtb 还有 [Hiiro](https://zh.moegirl.org.cn/Hiiro)、[sasaki](https://zh.moegirl.org.cn/笹木咲)、~~[きにゃこちゃん](https://zh.moegirl.org.cn/法元明菜)~~，当然还有别的。只不过看 v 看的多的还是 20 年，现在看得少了。
--   偶尔（~~曾经~~）会[在 b 站上发一些视频](https://space.bilibili.com/11067182)。感觉除了 [av65924361](https://www.bilibili.com/video/av65924361) 和 [av79877987](https://www.bilibili.com/video/av79877987) 基本上都是划水或者黑历史（
--   不喜欢 BV 号，所以写了个 [bv2av](https://greasyfork.org/zh-CN/scripts/398535-bv2av) 的 userscript。
-
----
-
--   在[十六型人格测试](https://www.16personalities.com/ch/)中稳定获得[“逻辑学家”人格 (INTP)](https://www.16personalities.com/ch/intp-人格) 的测试结果（有时会在 INTP-A 和 INTP-T 之间摇摆）。但由于 MBTI 越来越火，而且经常受到非理性看待、过度解读，其实是有点不想公开结果的。
--   不擅言辞，不会交际。常有语出冒犯的时候。虽希望善良待人，但不会为人处事。([copied](http://web.archive.org/web/20210123202817/https://blog.yuuta.moe/about/))
--   我相信人与人之间的误解远多于分歧。
--   「没有人是怪物」「理解不等于赞同」  
-    —— 《〈和陌生人说话〉：越汹涌，越平静》，Vista 看天下 2021.12.18
--   高三的时候同学带了很多《Vista 看天下》到班上供大家借阅，就利用晚自习和考前“复习”看了很多；高中毕业后自己订阅了电子版的看天下，现在也一直在看，可以说是除了社交媒体外的主要信息来源。
--   幻想有一天用户为开源/[自由软件](https://www.gnu.org/philosophy/free-sw.html)付费能成为常态，就像观众为能免费看的直播打赏成为常态一样。现在越来越觉得这只能是个幻想，而且或许会有比用户不愿付费更大的阻碍。
-
----
-
--   GPG key: [`863A0F9FA8127FA4`](https://github.com/ouuan.gpg)
-
----
-
 ## About this blog
 
-（其实我想搭个新博客，以至于有 idea 都不想在这个博客写新博文，但新博客到底什么时候会有呢x）
+[请访问新博客](https://ouuan.moe/about)
 
-由于 jsDelivr 在国内变得不可用，换成了 BootCDN，但貌似可能也不太好用（根据不同地区、网络而不同）。
-
-在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 以获得更好的阅读体验。
-
-本博客中还有少量含有中文的 LaTeX 公式，所以推荐安装 MathJax 的 Unicode 字体 [Arial Unicode MS](/fonts/arial-unicode-ms_2.ttf) 。
-
-本博客所有代码 [开源](https://github.com/ouuan/hugo-blog)。如果想要制作自己的博客：[制作模板](https://github.com/ouuan/hugo-blog-template)。
+本博客已弃用，所有内容保留，停止更新。
 
 {{% fold "关于本站使用的 Matomo Analytics" %}}
 
@@ -204,6 +129,6 @@ GPG 签名如下：
 
 <script>
 if (window.location.hash === '#donate') {
-    document.querySelector('#donate~details').setAttribute('open', '');
+    window.location = 'https://ouuan.moe/sponsor';
 }
 </script>

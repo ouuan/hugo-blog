@@ -4,6 +4,8 @@
 
 这里是 ouuan 的博客的源码，访问地址：<https://ouuan.github.io>
 
+本博客已弃用，请访问新版博客： <https://ouuan.moe>
+
 旧版 hexo 博客：<https://github.com/ouuan/ouuan.github.io/tree/hexo-archive>
 
 LICENSE
