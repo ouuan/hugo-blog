@@ -5,9 +5,7 @@ date = 2018-12-05T13:40:21+08:00
 
 ## About this blog
 
-[请访问新博客](https://ouuan.moe/about)
-
-本博客已弃用，所有内容保留，停止更新。
+我已开始使用 [新博客 (ouuan.moe)](https://ouuan.moe/)，[本页内容](https://ouuan.moe/about)已转移。本博客所有内容保留，但不再更新。
 
 ## OI experience
 
