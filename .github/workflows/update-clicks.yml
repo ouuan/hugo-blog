@@ -36,7 +36,7 @@ jobs:
           git commit -am "chore: update clicks"
 
       - name: Push changes
-        uses: ad-m/github-push-action@65392840bda2e774394d5cd38ca33e5918aec2d3
+        uses: ad-m/github-push-action@35284cf030a5836cb567a7bf1b39ebafbfae5f4a
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
