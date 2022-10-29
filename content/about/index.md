@@ -5,7 +5,9 @@ date = 2018-12-05T13:40:21+08:00
 
 ## About this blog
 
-我已开始使用 [新博客 (ouuan.moe)](https://ouuan.moe/)，[本页内容](https://ouuan.moe/about)已转移。本博客所有内容保留，但不再更新。
+自 2022 年 7 月起，我已开始使用 [新博客 (ouuan.moe)](https://ouuan.moe/)，[本页内容](https://ouuan.moe/about)已转移。
+
+本博客所有内容保留，但不再更新，可能包含过时或错误的信息。
 
 ## OI experience
 
