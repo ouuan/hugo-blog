@@ -42,7 +42,7 @@ jobs:
           branch: ${{ github.ref }}
 
       - name: Trigger Deploy
-        uses: benc-uk/workflow-dispatch@827565b908f387ffd483c84312273ae185c06c8a
+        uses: benc-uk/workflow-dispatch@b8ac4001bdf17685419a1b65af6fa92fc9a3de0e
         with:
           workflow: Deploy
           token: ${{ secrets.PERSONAL_TOKEN }}
