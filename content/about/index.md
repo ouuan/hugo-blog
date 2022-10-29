@@ -9,7 +9,6 @@ date = 2018-12-05T13:40:21+08:00
 
 ## OI experience
 
-{{% fold "OI 相关的经历" %}}
 初三：
 
 NOIP2017 普及组一等 $230$（HB rank $4$）
@@ -59,56 +58,6 @@ WC2020 <font color="silver">Ag</font> $75$ (CN rank $130$)
 [APIO2020](/post/apio-noi-2020/#apio) <font color="silver">Ag</font> $119$ (CN rank $171$)
 
 [NOI2020](/post/apio-noi-2020/#noi) <font color="silver">Ag</font> $322$ (CN rank $153$)
-{{% /fold %}}
-
-## Donate
-
-{{% fold "为我的项目/博客打赏" %}}
-
-<style>
-.donate {
-    display: flex;
-}
-
-.donate figure {
-    flex: 1;
-}
-
-.donate figcaption {
-    padding-top: 12px;
-    text-align: center;
-}
-</style>
-
-<div class="donate">
-<figure>
-<img src="/wechat-donate.png"/>
-<figcaption>微信打赏</figcaption>
-</figure>
-<figure>
-<img src="/alipay-donate.png"/>
-<figcaption>支付宝打赏</figcaption>
-</figure>
-</div>
-
-这些收款码的 sha256sum 如下：
-
-```plain
-d265ec20bb0d3e11dd7f448a53bc8f8d30c36f68bd3013e7d989bd7c66040da2  alipay-donate-256.png
-877c0b52ea6cddb99cb510da8cd02d099abf3f94874d6290fb7abd5f688bd092  alipay-donate.png
-4985a20bc1aabd3c48f6fc03617d35fa3e71888f10bb6199d8957a5ae484784e  wechat-and-alipay-donate-256.png
-026dd23365d40fba57bee9a894d56aac37b79c23e9ba80d06a8b34505a3ec780  wechat-donate-256.png
-75a49c81a772ba3cbe00e489b3542275053707e00f8c2884653fa3bb3642ace0  wechat-donate.png
-```
-
-GPG 签名如下：
-
--   [alipay-donate-256.png.sig](/alipay-donate-256.png.sig)
--   [alipay-donate.png.sig](/alipay-donate.png.sig)
--   [wechat-and-alipay-donate-256.png.sig](/wechat-and-alipay-donate-256.png.sig)
--   [wechat-donate-256.png.sig](/wechat-donate-256.png.sig)
--   [wechat-donate.png.sig](/wechat-donate.png.sig)
-{{% /fold %}}
 
 <script>
 if (window.location.hash === '#donate') {
